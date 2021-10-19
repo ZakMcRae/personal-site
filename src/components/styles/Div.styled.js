@@ -20,3 +20,25 @@ export const ContentDiv = styled.div`
   border: 1px solid black;
   height: 50vh;
 `;
+
+export const SocialsDiv = styled.div`
+  display: flex;
+  flex-direction: row;
+  width: 125px;
+  height: 48px;
+  justify-content: space-around;
+  align-items: center;
+
+  & > a > * {
+    box-sizing: content-box;
+    font-size: 24px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+  & > a > *:hover {
+    transform: scale(1.1);
+  }
+`;
