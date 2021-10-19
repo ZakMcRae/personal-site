@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Inventory Application",
+    "summary": "Fake Whisky store/catalogue.",
+    "tech": ["nodejs", "express", "mongoDB", "pug"],
+    "projectImage": "https://camo.githubusercontent.com/56bab12723d417d249aec0045fae14cde333177b3f4251fb8d9cb77fa955f851/68747470733a2f2f692e696d6775722e636f6d2f534b4d7131546f2e706e67",
+    "repoUrl": "https://github.com/ZakMcRae/inventory-application",
+    "siteUrl": "https://young-eyrie-64675.herokuapp.com/"
+  },
+  {
+    "name": "Shopping Cart",
+    "summary": "Small E-Commerce page with functional shopping cart.",
+    "tech": ["Javascript", "React", "CSS"],
+    "projectImage": "https://camo.githubusercontent.com/176e6f458295413e8e5db8df39f38d5bf02d1a6ba92ae3947144dabfd0c9e80a/68747470733a2f2f692e696d6775722e636f6d2f4d6a79635843662e706e67",
+    "repoUrl": "https://github.com/ZakMcRae/shopping-cart",
+    "siteUrl": "https://zakmcrae.github.io/shopping-cart/"
+  },
+  {
+    "name": "psts (Blog)",
+    "summary": "A blog website. Frontend MVC and Backend API.",
+    "tech": ["Python", "FastAPI", "SQLite", "Bootstrap", "Swagger-UI", "Nginx"],
+    "projectImage": "https://camo.githubusercontent.com/dce3231cbe395b29ffb7b18bbed7294d3441779ea2561daab7eefeb2d7e1ce90/68747470733a2f2f692e696d6775722e636f6d2f4d3075344556642e706e67",
+    "repoUrl": "https://github.com/ZakMcRae/psts-api",
+    "siteUrl": "https://psts.xyz/"
+  },
+  {
+    "name": "lsts (Todo list)",
+    "summary": "A todo list website.",
+    "tech": ["Python", "FastAPI", "SQLite", "Bootstrap", "Swagger-UI", "Nginx"],
+    "projectImage": "https://camo.githubusercontent.com/dce3231cbe395b29ffb7b18bbed7294d3441779ea2561daab7eefeb2d7e1ce90/68747470733a2f2f692e696d6775722e636f6d2f4d3075344556642e706e67",
+    "repoUrl": "https://github.com/ZakMcRae/psts-api",
+    "siteUrl": "https://psts.xyz/"
+  }
+]
