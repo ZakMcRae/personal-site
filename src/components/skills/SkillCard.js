@@ -2,8 +2,15 @@ import React from "react";
 import { SkillCardDiv } from "../styles/Div.styled";
 
 function SkillCard(props) {
-  const { name } = props;
-  return <SkillCardDiv>{name}</SkillCardDiv>;
+  const { icon, name } = props.item;
+  return (
+    <SkillCardDiv>
+      <div>
+        <img src={icon} alt="" />
+      </div>
+      <p>{name}</p>
+    </SkillCardDiv>
+  );
 }
 
 export default SkillCard;

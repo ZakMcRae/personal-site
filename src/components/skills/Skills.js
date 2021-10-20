@@ -1,31 +1,37 @@
 import React from "react";
-import { ContentDiv } from "../../components/styles/Div.styled";
+import { ContentDiv, SectionDiv } from "../../components/styles/Div.styled";
 import SkillCard from "./SkillCard";
-import skills from "../../content/skills.json";
+import { skillsData } from "../../content/skillsData";
 
 function Skills() {
   return (
     <ContentDiv>
       <h1>Skill Set</h1>
-      <p>
+      <h4>
         Here are the languages, frameworks and tools I have learned and used in
         projects.
-      </p>
+      </h4>
 
-      <h3>Languages</h3>
-      {skills.languages.map((language, index) => {
-        return <SkillCard name={language} key={index}></SkillCard>;
-      })}
+      <SectionDiv>
+        <h3>Languages</h3>
+        {skillsData.languages.map((item, index) => {
+          return <SkillCard item={item} key={index}></SkillCard>;
+        })}
+      </SectionDiv>
 
-      <h3>Frameworks</h3>
-      {skills.frameworks.map((framework, index) => {
-        return <SkillCard name={framework} key={index}></SkillCard>;
-      })}
+      <SectionDiv>
+        <h3>Frameworks</h3>
+        {skillsData.frameworks.map((item, index) => {
+          return <SkillCard item={item} key={index}></SkillCard>;
+        })}
+      </SectionDiv>
 
-      <h3>Tools</h3>
-      {skills.tools.map((tool, index) => {
-        return <SkillCard name={tool} key={index}></SkillCard>;
-      })}
+      <SectionDiv>
+        <h3>Tools</h3>
+        {skillsData.tools.map((item, index) => {
+          return <SkillCard item={item} key={index}></SkillCard>;
+        })}
+      </SectionDiv>
     </ContentDiv>
   );
 }
