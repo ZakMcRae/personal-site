@@ -1,5 +1,5 @@
 {
-  "languages": ["Javascript", "nodejs", "Python"],
+  "languages": ["Javascript", "Nodejs", "Python"],
   "frameworks": ["React", "Express", "Flask", "FastAPI"],
-  "other": ["HTML", "CSS", "Bootstrap", "MongoDB", "SQL", "Swagger-UI"]
+  "tools": ["HTML", "CSS", "Bootstrap", "MongoDB", "SQL", "Swagger-UI"]
 }
