@@ -16,4 +16,10 @@ html {
     padding: 0px;
     border: 0px;
 }
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
 `;
