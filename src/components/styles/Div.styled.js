@@ -226,4 +226,14 @@ export const TimeLineCardDiv = styled.div`
     box-shadow: -1px 1px 2px 0 #555;
     margin: auto;
   }
+
+  @media (min-width: 820px) {
+    max-width: 800px;
+  }
+`;
+
+export const FooterDiv = styled.div`
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px;
 `;

@@ -1,8 +1,13 @@
 import React from "react";
-import { ContentDiv } from "./styles/Div.styled";
+import { ContentDiv, FooterDiv } from "./styles/Div.styled";
+import Socials from "./Socials";
 
 function Footer() {
-  return <ContentDiv>My Footer</ContentDiv>;
+  return (
+    <FooterDiv>
+      <Socials />
+    </FooterDiv>
+  );
 }
 
 export default Footer;
