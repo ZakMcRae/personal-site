@@ -4,6 +4,7 @@ import {
   ProjectCardDiv,
   FlexDiv,
   FlexGrowDiv,
+  ProjectLinksDiv,
 } from "./styles/Div.styled";
 import { projectsData } from "../content/projectsData";
 import SkillCard from "./skills/SkillCard";
@@ -41,10 +42,13 @@ const ProjectCard = (props) => {
             })}
           </div>
         </FlexGrowDiv>
-        <FlexDiv>
-          <a href={repoUrl}>View GitHub Repo</a>
-          <a href={siteUrl}>Visit Site</a>
-        </FlexDiv>
+        <ProjectLinksDiv>
+          <h4>Project Links</h4>
+          <FlexDiv>
+            <a href={repoUrl}>View GitHub Repo</a>
+            <a href={siteUrl}>Visit Site</a>
+          </FlexDiv>
+        </ProjectLinksDiv>
       </div>
     </ProjectCardDiv>
   );

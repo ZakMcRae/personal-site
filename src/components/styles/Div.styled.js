@@ -138,7 +138,7 @@ export const ProjectCardDiv = styled.div`
     justify-content: space-evenly;
     align-items: center;
     padding: 10px 5px;
-    margin: 10px 0px;
+    margin-bottom: 10px;
     border-radius: 5px;
     text-decoration: none;
     box-shadow: -1px 1px 2px 0 #555;
@@ -164,17 +164,28 @@ export const ProjectCardDiv = styled.div`
 
     & > div > p {
       height: 80px;
+      margin-bottom: 0px;
     }
   }
 `;
 
 export const FlexDiv = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  gap: 10px;
+  margin: auto;
+
+  @media (min-width: 350px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
 `;
 
 export const FlexGrowDiv = styled.div`
   flex-grow: 1;
+`;
+
+export const ProjectLinksDiv = styled.div`
+  margin-top: 25px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
 `;
