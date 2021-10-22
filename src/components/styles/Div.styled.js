@@ -135,6 +135,7 @@ export const ProjectCardDiv = styled.div`
     width: 150px;
     background-color: #ddd;
     display: flex;
+    color: black;
     justify-content: space-evenly;
     align-items: center;
     padding: 10px 5px;
@@ -188,4 +189,41 @@ export const ProjectLinksDiv = styled.div`
   margin-top: 25px;
   margin-bottom: 5px;
   padding-bottom: 5px;
+`;
+
+export const TimeLineCardDiv = styled.div`
+  max-width: 95%;
+  background-color: #fff;
+  margin: auto;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: -1px 1px 2px 0 #555;
+
+  & > h3 {
+    padding-top: 10px;
+    max-width: 95%;
+    margin: auto;
+  }
+
+  & > p {
+    text-align: start;
+    max-width: 90%;
+    margin: 20px auto;
+  }
+
+  & > a {
+    max-width: 150px;
+    flex-shrink: 2;
+    background-color: #ddd;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+    padding: 10px 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: -1px 1px 2px 0 #555;
+    margin: auto;
+  }
 `;

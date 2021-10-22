@@ -2,56 +2,78 @@
   {
     "date": "December 2021",
     "title": "Explored Python Data Science",
-    "body": "Completed various Coursera courses (Data Analyses, Databases and SQL, ...). Decided this area didn't interest me, it feels more like statistics than programming."
+    "body": "Completed various IBM Coursera courses (Data Analyses, Databases and SQL, ...). Decided this area didn't interest me, it feels more like statistics than programming.",
+    "linkText": "View Earned Badges",
+    "linkUrl": "https://www.credly.com/users/zachary-mcrae/badges"
   },
   {
     "date": "Jan 2021",
-    "title": "Exploring web development with Python",
-    "body": "Started playing with web APIs like the Spotify API to get top tracks and artists. Lead to me tinkering with Flask web framework"
+    "title": "Exploring Web Development with Python",
+    "body": "Started playing with web APIs like the Spotify API to get top tracks and artists. Lead to me tinkering with Flask web framework",
+    "linkText": "View Spotify API",
+    "linkUrl": "https://developer.spotify.com/documentation/web-api/"
   },
   {
     "date": "Feb 2021",
-    "title": "First Site - spotifystats.xyz",
-    "body": "Made my first website. Uses Spotify API to access a user's top tracks/artists. Learned a lot of Flask/general web development and bootstrap. Also learned how to configure Ngninx on my Linode vps and deploy the site myself."
+    "title": "Made My First Site",
+    "body": "The site uses the Spotify API to access a user's top tracks/artists. Learned a lot of Flask, general web development and bootstrap. Also learned how to configure Ngninx on my Linode vps and deploy the site myself.",
+    "linkText": "View spotifystats.xyz",
+    "linkUrl": "https://spotifystats.xyz/"
   },
   {
     "date": "Mar 2021",
-    "title": "lsts.xyz",
-    "body": "A todo list site. This site was made with the intent to learn databases and forms. I used SQLAlchemy ORM with a SQLite database."
+    "title": "Working with Databases",
+    "body": "I made a todo list site with the intent to learn databases, forms and user accounts. I used SQLAlchemy ORM with a SQLite database.",
+    "linkText": "View lsts.xyz",
+    "linkUrl": "https://lsts.xyz/"
   },
   {
     "date": "Apr 2021",
-    "title": "First API - api.psts.xyz",
-    "body": "My first API. This was made with the intent to learn making REST apis. I also wrote integration tests for every endpoint. Learned using a separate test database, mocking data and monkeypatching functions."
+    "title": "Made My First API",
+    "body": "My first API. This was made with the intent to learn making REST apis. I also wrote integration tests for every endpoint. Learned using a separate test database, mocking data and monkeypatching functions.",
+    "linkText": "View Blog API",
+    "linkUrl": "https://api.psts.xyz/"
   },
   {
     "date": "May 2021",
-    "title": "Front end for API - fastapi.psts.xyz",
-    "body": "This was a front end made to be used with api.psts.xyz. Learned my API endpoints could be improved. Had endpoints for individual posts or replies only, made endpoints that provided posts complete with nested replies. Also learned how to manage multiple domains and sub-domains when I deployed this on my Linode vps."
+    "title": "Front End and Connecting to API",
+    "body": "This was a front end made to be used with api.psts.xyz. Learned my API endpoints could be improved. Had endpoints for individual posts or replies only, made endpoints that provided posts complete with nested replies. Also learned how to manage multiple domains and sub-domains when I deployed this on my Linode vps.",
+    "linkText": "View Blog Front End",
+    "linkUrl": "https://fastapi.psts.xyz/"
   },
   {
     "date": "June 2021",
-    "title": "Started learning javascript",
-    "body": "Started following the the foundations track at The Odin Project. Learned the fundamentals of javascript. At this point I switched to Ubuntu as my OS while working, started using vscode and did all of my git through the command line."
+    "title": "Started Learning Javascript",
+    "body": "Started following the the foundations track at The Odin Project. Learned the fundamentals of Javascript. At this point I switched to Ubuntu as my OS while working, started using vscode and did majority of git through the command line.",
+    "linkText": "View Calculator",
+    "linkUrl": "https://zakmcrae.github.io/calc/"
   },
   {
     "date": "July-August 2021",
-    "title": "Continued learning javascript",
-    "body": "Loosely followed along with The Odin Project as some subjects I'd covered already in Python. Lots of projects made during this time such as rock paper scissors, drawing-pad, a calculator. Got practice with webpack, babel, Dom manipulation, ES6."
+    "title": "Continued Learning Javascript",
+    "body": "Loosely followed along with The Odin Project as some subjects I'd covered already in Python. Lots of projects made during this time such as rock paper scissors, drawing-pad, a calculator. Got practice with webpack, babel, Dom manipulation, ES6.",
+    "linkText": "View Tic-Tac-Toe",
+    "linkUrl": "https://zakmcrae.github.io/tic-tac-toe/"
   },
   {
     "date": "August 2021",
-    "title": "Started learning React",
-    "body": "Did many projects from The Odin Project to learn React such as a resume builder, a memory game and a shopping cart. Got practice with class based and functional components, state, props, lifecycle methods (briefly) and hooks."
+    "title": "Started Learning React",
+    "body": "Did many projects from The Odin Project to learn React such as a resume builder, a memory game and a shopping cart. Got practice with class based and functional components, state, props, lifecycle methods (briefly) and hooks.",
+    "linkText": "View Breaking Bad Memory Game",
+    "linkUrl": "https://zakmcrae.github.io/breaking-bad-memory-game/"
   },
   {
     "date": "September 2021",
-    "title": "Started learning nodejs/express",
-    "body": "Did many projects from The Odin Project to learn nodejs/express such as an inventory application, mini message board and an app to practice various user permission levels. Got practice with mongoDB, writing and using middleware, and testing."
+    "title": "Started Learning Nodejs and Express",
+    "body": "Did many projects from The Odin Project to learn nodejs/express such as an inventory application, mini message board and an app to practice various user permission levels. Got practice with mongoDB, writing and using middleware, and testing.",
+    "linkText": "View Whisky Warehouse",
+    "linkUrl": "https://young-eyrie-64675.herokuapp.com/"
   },
   {
     "date": "October 2021",
-    "title": "Further projects and job search",
-    "body": "As I am nearing my time running out on learning full time, I am working on another large project. I am making a calorie counting app with an nodejs/express back end and a react front end. I also started this personal portfolio website before I begin looking for a job. Thanks for reading this far!"
+    "title": "Further Projects and Job Search",
+    "body": "As I am nearing my time running out on learning full time, I am working on another large project. I am making a calorie counting app with a Nodejs/Express back end and a React front end. I also started this personal portfolio website before I begin looking for a job. Thanks for reading this far!",
+    "linkText": "View ScaleDown API Repo",
+    "linkUrl": "https://github.com/ZakMcRae/scale-down-api"
   }
 ]
