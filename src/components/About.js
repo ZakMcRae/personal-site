@@ -1,8 +1,13 @@
-import React from "react";
+import { useEffect } from "react";
 import { AboutDiv, AboutCardDiv, FlexGrowDiv } from "./styles/Div.styled";
 import { FaPodcast, FaBook, FaCogs } from "react-icons/fa";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function About() {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
     <AboutDiv>
       <h1>Hey, My Name is Zak</h1>
@@ -14,8 +19,8 @@ function About() {
         implementing new technologies I decided to pursue it full time.
       </p>
 
-      <div>
-        <AboutCardDiv>
+      <div data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
+        <AboutCardDiv data-aos="fade-up" data-aos-once="true">
           <div>
             <FaBook />
           </div>
@@ -25,7 +30,7 @@ function About() {
           </FlexGrowDiv>
         </AboutCardDiv>
 
-        <AboutCardDiv>
+        <AboutCardDiv data-aos="fade-up" data-aos-once="true">
           <div>
             <FaPodcast />
           </div>
@@ -37,7 +42,7 @@ function About() {
           </FlexGrowDiv>
         </AboutCardDiv>
 
-        <AboutCardDiv>
+        <AboutCardDiv data-aos="fade-up" data-aos-once="true">
           <div>
             <FaCogs />
           </div>
