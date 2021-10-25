@@ -1,5 +1,5 @@
 import React from "react";
-import { ContentDiv, FooterDiv } from "./styles/Div.styled";
+import { FooterDiv } from "./styles/Div.styled";
 import Socials from "./Socials";
 
 function Footer() {
