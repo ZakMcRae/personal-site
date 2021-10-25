@@ -2,14 +2,14 @@
   {
     "date": "December 2021",
     "title": "Explored Python Data Science",
-    "body": "Completed various IBM Coursera courses (Data Analyses, Databases and SQL, ...). Decided this area didn't interest me, it feels more like statistics than programming.",
+    "body": "Completed various IBM Coursera courses (Data Analyses, Databases and SQL, ...). Decided this area didn't interest me, it feels more like statistics than programming and it didn't satisfy that problem solving itch.",
     "linkText": "View Earned Badges",
     "linkUrl": "https://www.credly.com/users/zachary-mcrae/badges"
   },
   {
     "date": "Jan 2021",
     "title": "Exploring Web Development with Python",
-    "body": "Started playing with web APIs like the Spotify API to get top tracks and artists. Lead to me tinkering with Flask web framework",
+    "body": "Started playing with web APIs like the Spotify API to get top tracks and artists. Lead to me tinkering with Flask web framework.",
     "linkText": "View Spotify API",
     "linkUrl": "https://developer.spotify.com/documentation/web-api/"
   },
