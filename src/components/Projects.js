@@ -1,4 +1,4 @@
-import React from "react";
+import { useEffect } from "react";
 import {
   ContentDiv,
   ProjectCardDiv,
@@ -8,6 +8,8 @@ import {
 } from "./styles/Div.styled";
 import { projectsData } from "../content/projectsData";
 import SkillCard from "./SkillsCard";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Projects() {
   return (
@@ -26,8 +28,11 @@ function Projects() {
 
 const ProjectCard = (props) => {
   const { name, summary, projectImage, tech, repoUrl, siteUrl } = props.project;
+  useEffect(() => {
+    AOS.init({ duration: 1250 });
+  }, []);
   return (
-    <ProjectCardDiv>
+    <ProjectCardDiv data-aos="fade-up" data-aos-once="true">
       <img src={projectImage} alt="" />
 
       <div>
