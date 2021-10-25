@@ -237,3 +237,114 @@ export const FooterDiv = styled.div`
   justify-content: center;
   padding: 10px 0px;
 `;
+
+export const AboutDiv = styled.div`
+  background-color: #eee;
+  border: 1px solid black;
+  text-align: center;
+
+  & > h1 {
+    max-width: 95%;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  & > p {
+    text-align: start;
+    max-width: 90%;
+    margin: 10px auto;
+    margin-bottom: 20px;
+  }
+
+  & svg {
+    box-sizing: content-box;
+    font-size: 50px;
+    padding: 0px 10px;
+  }
+
+  & > div {
+    max-width: 95%;
+    margin: auto;
+    background-color: #999;
+    color: #eee;
+    border-radius: 5px;
+    box-shadow: -1px 1px 2px 0 #555;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media (min-width: 350px) {
+    & > div {
+      margin: auto;
+      margin-bottom: 10px;
+      max-width: 330px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    & > div {
+      margin: auto;
+      margin-bottom: 10px;
+      max-width: 95%;
+      flex-direction: row;
+    }
+  }
+
+  @media (min-width: 960px) {
+    & > div {
+      max-width: 910px;
+    }
+  }
+`;
+
+export const AboutCardDiv = styled.div`
+  height: 140px;
+  padding-top: 5px;
+
+  display: flex;
+  flex-direction: row;
+  max-width: 95%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid #eee;
+  }
+
+  & > div > p {
+    padding: 0px 5px;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+  }
+
+  @media (min-width: 350px) {
+    max-width: 330px;
+
+    & > div > p {
+      width: 260px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    max-width: 330px;
+    flex-direction: column;
+
+    & > div > p {
+      width: unset;
+      padding-bottom: 10px;
+    }
+
+    & svg {
+      padding-top: 10px;
+    }
+
+    &:not(:last-child) {
+      border-bottom: unset;
+      border-right: 1px solid #eee;
+    }
+  }
+`;

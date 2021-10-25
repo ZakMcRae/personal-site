@@ -1,10 +1,11 @@
 import React from "react";
-import { ContentDiv } from "./styles/Div.styled";
+import { AboutDiv, AboutCardDiv, FlexGrowDiv } from "./styles/Div.styled";
+import { FaPodcast, FaBook, FaCogs } from "react-icons/fa";
 
 function About() {
   return (
-    <ContentDiv>
-      <h1>Hey, my name is Zak</h1>
+    <AboutDiv>
+      <h1>Hey, My Name is Zak</h1>
       <p>
         In late 2020 I decided to take a new career path and for all of 2021
         committed my full time to learning web development. In the past I used
@@ -13,17 +14,40 @@ function About() {
         implementing new technologies I decided to pursue it full time.
       </p>
 
-      <p>Life Long Learning - Never to late to learn a new tool or trick</p>
+      <div>
+        <AboutCardDiv>
+          <div>
+            <FaBook />
+          </div>
+          <FlexGrowDiv>
+            <h4>Life Long Learning</h4>
+            <p>Never to late to learn a new tool or trick.</p>
+          </FlexGrowDiv>
+        </AboutCardDiv>
 
-      <p>
-        Passion for the field - Listen to programming podcasts for fun.
-        CoRecursive, Talk Python to Me, Syntax FM,...
-      </p>
+        <AboutCardDiv>
+          <div>
+            <FaPodcast />
+          </div>
+          <FlexGrowDiv>
+            <h4>Passion for the field</h4>
+            <p>
+              Listen to programming podcasts for fun and learning whats new.
+            </p>
+          </FlexGrowDiv>
+        </AboutCardDiv>
 
-      <p>
-        Logic and Efficieny - I like the ideas and principles of programming.
-      </p>
-    </ContentDiv>
+        <AboutCardDiv>
+          <div>
+            <FaCogs />
+          </div>
+          <FlexGrowDiv>
+            <h4>Logic and Efficiency</h4>
+            <p>I like the ideas and principles of programming.</p>
+          </FlexGrowDiv>
+        </AboutCardDiv>
+      </div>
+    </AboutDiv>
   );
 }
 
