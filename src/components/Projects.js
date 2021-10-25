@@ -7,7 +7,7 @@ import {
   ProjectLinksDiv,
 } from "./styles/Div.styled";
 import { projectsData } from "../content/projectsData";
-import SkillCard from "./skills/SkillCard";
+import SkillCard from "./SkillsCard";
 
 function Projects() {
   return (

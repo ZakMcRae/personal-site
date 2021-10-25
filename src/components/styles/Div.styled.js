@@ -73,7 +73,7 @@ export const SkillCardDiv = styled.div`
 
   & div {
     background-color: #fff;
-    padding: 0 5px;
+    padding: 3px;
   }
 
   & img {

@@ -1,7 +1,7 @@
 import React from "react";
-import { SkillCardDiv } from "../styles/Div.styled";
+import { SkillCardDiv } from "./styles/Div.styled";
 
-function SkillCard(props) {
+export function SkillCard(props) {
   const { icon, name } = props.item;
   return (
     <SkillCardDiv>
@@ -12,5 +12,4 @@ function SkillCard(props) {
     </SkillCardDiv>
   );
 }
-
 export default SkillCard;

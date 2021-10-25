@@ -1,7 +1,9 @@
 import React from "react";
-import { ContentDiv, SectionDiv } from "../../components/styles/Div.styled";
-import SkillCard from "./SkillCard";
-import { skillsData } from "../../content/skillsData";
+import { ContentDiv, SectionDiv } from "./styles/Div.styled";
+import { skillsData } from "../content/skillsData";
+import { SkillCard } from "./SkillsCard";
+
+// todo implement media queries for larger screen sizes
 
 function Skills() {
   return (
