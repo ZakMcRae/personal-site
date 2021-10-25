@@ -21,6 +21,7 @@ export const ContentDiv = styled.div`
   background-color: #eee;
   border: 1px solid black;
   text-align: center;
+  padding-bottom: 50px;
 
   & > h1 {
     margin-top: 50px;
@@ -242,6 +243,7 @@ export const AboutDiv = styled.div`
   background-color: #eee;
   border: 1px solid black;
   text-align: center;
+  padding-bottom: 50px;
 
   & > h1 {
     max-width: 95%;
@@ -269,7 +271,6 @@ export const AboutDiv = styled.div`
     color: #eee;
     border-radius: 5px;
     box-shadow: -1px 1px 2px 0 #555;
-    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
   }
@@ -284,8 +285,7 @@ export const AboutDiv = styled.div`
 
   @media (min-width: 768px) {
     & > div {
-      margin: auto;
-      margin-bottom: 10px;
+      margin: 50px auto;
       max-width: 95%;
       flex-direction: row;
     }
