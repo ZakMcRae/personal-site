@@ -28,11 +28,14 @@ function Projects() {
 
 const ProjectCard = (props) => {
   const { name, summary, projectImage, tech, repoUrl, siteUrl } = props.project;
+
+  // initialize AOS (animation on scroll package)
   useEffect(() => {
-    AOS.init({ duration: 1250 });
+    AOS.init({ duration: 1000, once: true });
   }, []);
+
   return (
-    <ProjectCardDiv data-aos="fade-up" data-aos-once="true">
+    <ProjectCardDiv>
       <img src={projectImage} alt="" />
 
       <div>
@@ -50,8 +53,12 @@ const ProjectCard = (props) => {
         <ProjectLinksDiv>
           <h4>Project Links</h4>
           <FlexDiv>
-            <a href={repoUrl}>View GitHub Repo</a>
-            <a href={siteUrl}>Visit Site</a>
+            <div data-aos="zoom-in">
+              <a href={repoUrl}>View GitHub Repo</a>
+            </div>
+            <div data-aos="zoom-in">
+              <a href={siteUrl}>Visit Site</a>
+            </div>
           </FlexDiv>
         </ProjectLinksDiv>
       </div>

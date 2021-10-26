@@ -5,9 +5,11 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 function About() {
+  // initialize AOS (animation on scroll package)
   useEffect(() => {
-    AOS.init({ duration: 2000 });
+    AOS.init({ duration: 2000, once: true });
   }, []);
+
   return (
     <AboutDiv>
       <h1>Hey, My Name is Zak</h1>
@@ -19,8 +21,8 @@ function About() {
         implementing new technologies I decided to pursue it full time.
       </p>
 
-      <div data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
-        <AboutCardDiv data-aos="fade-up" data-aos-once="true">
+      <div data-aos="fade-up" data-aos-duration="1000">
+        <AboutCardDiv data-aos="fade-up">
           <div>
             <FaBook />
           </div>
@@ -30,7 +32,7 @@ function About() {
           </FlexGrowDiv>
         </AboutCardDiv>
 
-        <AboutCardDiv data-aos="fade-up" data-aos-once="true">
+        <AboutCardDiv data-aos="fade-up">
           <div>
             <FaPodcast />
           </div>
@@ -42,7 +44,7 @@ function About() {
           </FlexGrowDiv>
         </AboutCardDiv>
 
-        <AboutCardDiv data-aos="fade-up" data-aos-once="true">
+        <AboutCardDiv data-aos="fade-up">
           <div>
             <FaCogs />
           </div>
