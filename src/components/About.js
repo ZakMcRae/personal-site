@@ -1,15 +1,7 @@
-import { useEffect } from "react";
 import { AboutDiv, AboutCardDiv, FlexGrowDiv } from "./styles/Div.styled";
 import { FaPodcast, FaBook, FaCogs } from "react-icons/fa";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 function About() {
-  // initialize AOS (animation on scroll package)
-  useEffect(() => {
-    AOS.init({ duration: 1250, once: true });
-  }, []);
-
   return (
     <AboutDiv>
       <h1>Here Is A Little Bit About Me</h1>
@@ -22,7 +14,11 @@ function About() {
       </p>
 
       <div data-aos="fade-up" data-aos-duration="1000">
-        <AboutCardDiv data-aos="fade-up">
+        <AboutCardDiv
+          data-aos="fade-up"
+          data-aos-duration="1250"
+          data-aos-delay="500"
+        >
           <div>
             <FaBook />
           </div>
@@ -32,7 +28,11 @@ function About() {
           </FlexGrowDiv>
         </AboutCardDiv>
 
-        <AboutCardDiv data-aos="fade-up">
+        <AboutCardDiv
+          data-aos="fade-up"
+          data-aos-duration="1250"
+          data-aos-delay="500"
+        >
           <div>
             <FaPodcast />
           </div>
@@ -44,7 +44,11 @@ function About() {
           </FlexGrowDiv>
         </AboutCardDiv>
 
-        <AboutCardDiv data-aos="fade-up">
+        <AboutCardDiv
+          data-aos="fade-up"
+          data-aos-duration="1250"
+          data-aos-delay="500"
+        >
           <div>
             <FaCogs />
           </div>

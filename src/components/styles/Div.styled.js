@@ -22,6 +22,7 @@ export const ContentDiv = styled.div`
   border: 1px solid black;
   text-align: center;
   padding-bottom: 50px;
+  overflow-x: hidden;
 
   & > h1 {
     margin-top: 50px;
@@ -37,6 +38,7 @@ export const ContentDiv = styled.div`
 // spaced out inside larger section div
 export const SectionDiv = styled.div`
   margin-bottom: 25px;
+  // stop aos scroll animation overflow
   overflow-x: hidden;
 `;
 
@@ -45,11 +47,11 @@ export const SocialsDiv = styled.div`
   flex-direction: row;
   width: 125px;
   height: 48px;
-  justify-content: space-around;
+  gap: 5px;
+  justify-content: center;
   align-items: center;
 
   & > a > * {
-    box-sizing: content-box;
     font-size: 24px;
     color: black;
     border: 2px solid black;
@@ -233,6 +235,10 @@ export const TimeLineCardDiv = styled.div`
     text-decoration: none;
     box-shadow: -1px 1px 2px 0 #555;
     margin: auto;
+  }
+
+  & a:hover {
+    transform: scale(1.05);
   }
 
   @media (min-width: 820px) {

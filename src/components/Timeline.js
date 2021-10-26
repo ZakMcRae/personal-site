@@ -1,4 +1,3 @@
-import React from "react";
 import { ContentDiv, TimeLineCardDiv } from "./styles/Div.styled";
 const timeLineData = require("../content/timeline.json");
 
@@ -9,9 +8,20 @@ function Timeline() {
     <ContentDiv>
       <h1>My Timeline</h1>
       <h4>Here is a rough timeline of my progression in programming.</h4>
-      {timeLineData.map((item) => (
-        <TimeLineCard item={item} />
-      ))}
+      {timeLineData.map((item, index) => {
+        if (index % 2 === 0) {
+          return (
+            <div key={index} data-aos="fade-up-right">
+              <TimeLineCard item={item} />
+            </div>
+          );
+        } else
+          return (
+            <div key={index} data-aos="fade-up-left">
+              <TimeLineCard item={item} />
+            </div>
+          );
+      })}
     </ContentDiv>
   );
 }

@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import {
   ContentDiv,
   ProjectCardDiv,
@@ -8,8 +7,6 @@ import {
 } from "./styles/Div.styled";
 import { projectsData } from "../content/projectsData";
 import SkillCard from "./SkillsCard";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 function Projects() {
   return (
@@ -29,11 +26,6 @@ function Projects() {
 const ProjectCard = (props) => {
   const { name, summary, projectImage, tech, repoUrl, siteUrl } = props.project;
 
-  // initialize AOS (animation on scroll package)
-  useEffect(() => {
-    AOS.init({ once: true });
-  }, []);
-
   return (
     <ProjectCardDiv>
       <img src={projectImage} alt="" />
@@ -51,12 +43,12 @@ const ProjectCard = (props) => {
           </div>
         </FlexGrowDiv>
         <ProjectLinksDiv>
-          <h4 data-aos="zoom-in">Project Links</h4>
+          <h4>Project Links</h4>
           <FlexDiv>
-            <div data-aos="zoom-in">
+            <div data-aos="fade-in" data-aos-duration="1000">
               <a href={repoUrl}>View GitHub Repo</a>
             </div>
-            <div data-aos="zoom-in">
+            <div data-aos="fade-in" data-aos-duration="1000">
               <a href={siteUrl}>Visit Site</a>
             </div>
           </FlexDiv>
