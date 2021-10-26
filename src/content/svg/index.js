@@ -62,3 +62,13 @@ export const SwaggerUI = {
   icon: require("./SwaggerUI.svg").default,
   name: "SwaggerUI",
 };
+
+export const Git = {
+  icon: require("./Git.svg").default,
+  name: "Git",
+};
+
+export const Nginx = {
+  icon: require("./Nginx.svg").default,
+  name: "Nginx",
+};
