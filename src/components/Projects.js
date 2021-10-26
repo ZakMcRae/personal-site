@@ -31,7 +31,7 @@ const ProjectCard = (props) => {
 
   // initialize AOS (animation on scroll package)
   useEffect(() => {
-    AOS.init({ duration: 1000, once: true });
+    AOS.init({ once: true });
   }, []);
 
   return (
@@ -51,7 +51,7 @@ const ProjectCard = (props) => {
           </div>
         </FlexGrowDiv>
         <ProjectLinksDiv>
-          <h4>Project Links</h4>
+          <h4 data-aos="zoom-in">Project Links</h4>
           <FlexDiv>
             <div data-aos="zoom-in">
               <a href={repoUrl}>View GitHub Repo</a>
