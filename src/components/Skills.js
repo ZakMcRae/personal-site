@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { ContentDiv, SectionDiv } from "./styles/Div.styled";
+import { ContentDiv, SectionDiv, FlexDiv } from "./styles/Div.styled";
 import { skillsData } from "../content/skillsData";
 import { SkillCard } from "./SkillsCard";
 import AOS from "aos";
@@ -9,7 +9,10 @@ import "aos/dist/aos.css";
 
 function Skills() {
   useEffect(() => {
-    AOS.init({ duration: 1000 });
+    AOS.init({
+      duration: 2000,
+      once: true,
+    });
   }, []);
   return (
     <ContentDiv>
@@ -19,26 +22,44 @@ function Skills() {
         projects.
       </h4>
 
-      <SectionDiv data-aos="fade-up" data-aos-once="true">
-        <h3>Languages</h3>
-        {skillsData.languages.map((item, index) => {
-          return <SkillCard item={item} key={index}></SkillCard>;
-        })}
-      </SectionDiv>
+      <FlexDiv>
+        <div>
+          <SectionDiv>
+            <h3>Languages</h3>
+            {skillsData.languages.map((item, index) => {
+              return (
+                <div data-aos="slide-right">
+                  <SkillCard item={item} key={index}></SkillCard>
+                </div>
+              );
+            })}
+          </SectionDiv>
 
-      <SectionDiv data-aos="fade-up" data-aos-once="true">
-        <h3>Frameworks</h3>
-        {skillsData.frameworks.map((item, index) => {
-          return <SkillCard item={item} key={index}></SkillCard>;
-        })}
-      </SectionDiv>
+          <SectionDiv>
+            <h3>Frameworks</h3>
+            {skillsData.frameworks.map((item, index) => {
+              return (
+                <div data-aos="slide-right">
+                  <SkillCard item={item} key={index}></SkillCard>
+                </div>
+              );
+            })}
+          </SectionDiv>
+        </div>
 
-      <SectionDiv data-aos="fade-up" data-aos-once="true">
-        <h3>Tools</h3>
-        {skillsData.tools.map((item, index) => {
-          return <SkillCard item={item} key={index}></SkillCard>;
-        })}
-      </SectionDiv>
+        <div>
+          <SectionDiv>
+            <h3>Tools</h3>
+            {skillsData.tools.map((item, index) => {
+              return (
+                <div data-aos="slide-left">
+                  <SkillCard item={item} key={index}></SkillCard>
+                </div>
+              );
+            })}
+          </SectionDiv>
+        </div>
+      </FlexDiv>
     </ContentDiv>
   );
 }

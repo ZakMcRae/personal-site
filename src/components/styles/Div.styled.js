@@ -37,6 +37,7 @@ export const ContentDiv = styled.div`
 // spaced out inside larger section div
 export const SectionDiv = styled.div`
   margin-bottom: 25px;
+  overflow-x: hidden;
 `;
 
 export const SocialsDiv = styled.div`
@@ -133,7 +134,7 @@ export const ProjectCardDiv = styled.div`
   }
 
   & a {
-    width: 150px;
+    width: 135px;
     background-color: #ddd;
     display: flex;
     color: black;
@@ -173,12 +174,18 @@ export const ProjectCardDiv = styled.div`
 
 export const FlexDiv = styled.div`
   margin: auto;
+  max-width: 95%;
 
   @media (min-width: 350px) {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 10px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+  }
+
+  @media (min-width: 1100px) {
+    max-width: 1065px;
   }
 `;
 
@@ -288,6 +295,12 @@ export const AboutDiv = styled.div`
       margin: 50px auto;
       max-width: 95%;
       flex-direction: row;
+    }
+  }
+
+  @media (min-width: 842px) {
+    & > p {
+      max-width: 756px;
     }
   }
 
