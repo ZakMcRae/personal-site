@@ -57,7 +57,7 @@ export const SocialsDiv = styled.div`
   }
 
   & > a > *:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
 `;
 
@@ -147,7 +147,7 @@ export const ProjectCardDiv = styled.div`
   }
 
   & a:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
 
   @media (min-width: 350px) {
