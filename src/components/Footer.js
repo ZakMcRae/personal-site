@@ -1,4 +1,3 @@
-import React from "react";
 import { FooterDiv } from "./styles/Div.styled";
 import Socials from "./Socials";
 
