@@ -2,8 +2,6 @@ import { ContentDiv, SectionDiv, FlexDiv } from "./styles/Div.styled";
 import { skillsData } from "../content/skillsData";
 import { SkillCard } from "./SkillsCard";
 
-// todo implement media queries for larger screen sizes
-
 function Skills() {
   return (
     <ContentDiv>
