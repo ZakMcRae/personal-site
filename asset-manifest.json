@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/personal-site/static/css/main.afd7172b.chunk.css",
+    "main.js": "/personal-site/static/js/main.f7df880a.chunk.js",
+    "main.js.map": "/personal-site/static/js/main.f7df880a.chunk.js.map",
+    "runtime-main.js": "/personal-site/static/js/runtime-main.ad172b63.js",
+    "runtime-main.js.map": "/personal-site/static/js/runtime-main.ad172b63.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/personal-site/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.ea03bb2d.chunk.js": "/personal-site/static/js/2.ea03bb2d.chunk.js",
+    "static/js/2.ea03bb2d.chunk.js.map": "/personal-site/static/js/2.ea03bb2d.chunk.js.map",
+    "index.html": "/personal-site/index.html",
+    "static/css/2.7fc9bc2b.chunk.css.map": "/personal-site/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.afd7172b.chunk.css.map": "/personal-site/static/css/main.afd7172b.chunk.css.map",
+    "static/js/2.ea03bb2d.chunk.js.LICENSE.txt": "/personal-site/static/js/2.ea03bb2d.chunk.js.LICENSE.txt",
+    "static/media/Bootstrap.svg": "/personal-site/static/media/Bootstrap.5d590f6c.svg",
+    "static/media/CSS.svg": "/personal-site/static/media/CSS.a490c8f8.svg",
+    "static/media/Express.svg": "/personal-site/static/media/Express.632d3c32.svg",
+    "static/media/FastAPI.svg": "/personal-site/static/media/FastAPI.0d5b8486.svg",
+    "static/media/Flask.svg": "/personal-site/static/media/Flask.2cca5781.svg",
+    "static/media/Git.svg": "/personal-site/static/media/Git.6d27b5e0.svg",
+    "static/media/HTML.svg": "/personal-site/static/media/HTML.87f3f64a.svg",
+    "static/media/Javascript.svg": "/personal-site/static/media/Javascript.fd46ca41.svg",
+    "static/media/MongoDB.svg": "/personal-site/static/media/MongoDB.0781b723.svg",
+    "static/media/Nginx.svg": "/personal-site/static/media/Nginx.f738386e.svg",
+    "static/media/Nodejs.svg": "/personal-site/static/media/Nodejs.502737ea.svg",
+    "static/media/Python.svg": "/personal-site/static/media/Python.6a8b2999.svg",
+    "static/media/React.svg": "/personal-site/static/media/React.3adc4d15.svg",
+    "static/media/SQL.svg": "/personal-site/static/media/SQL.4a2f4d89.svg",
+    "static/media/SwaggerUI.svg": "/personal-site/static/media/SwaggerUI.a69c437f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ad172b63.js",
+    "static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.ea03bb2d.chunk.js",
+    "static/css/main.afd7172b.chunk.css",
+    "static/js/main.f7df880a.chunk.js"
+  ]
+}
