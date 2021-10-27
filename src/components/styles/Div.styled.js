@@ -239,7 +239,7 @@ export const TimeLineCardDiv = styled.div`
   max-width: 95%;
   background-color: ${({ theme }) => theme.colors.backgroundSecondary};
   margin: auto;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
   padding-bottom: 10px;
   border-radius: 5px;
   box-shadow: -1px 1px 2px 0 #555;
