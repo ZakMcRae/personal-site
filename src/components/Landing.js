@@ -7,13 +7,16 @@ import "aos/dist/aos.css";
 function Landing() {
   useEffect(() => {
     // initialize AOS (animation on scroll package)
-    AOS.init({ once: true, anchorPlacement: "bottom-bottom" });
+    // todo uncomment line below
+    // AOS.init({ once: true});
+    AOS.init({});
 
     // wake up my heroku website in case user clicks it later
     // free tier of heroku sleeps until visited - can take 5-20s to startup
-    fetch("https://young-eyrie-64675.herokuapp.com/", {
-      mode: "no-cors",
-    });
+    // todo uncomment line below
+    // fetch("https://young-eyrie-64675.herokuapp.com/", {
+    //   mode: "no-cors",
+    // });
   }, []);
 
   return (
