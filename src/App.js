@@ -12,7 +12,15 @@ import { ThemeProvider } from "styled-components";
 
 const theme = {
   colors: {
-    background: "#eee",
+    //Teal
+    // backgroundPrimary: "#29A0B1",
+    // Orange
+    // backgroundPrimary: "#FF8300",
+    // Gold
+    backgroundPrimary: "#F8D210",
+    backgroundSecondary: "#fff",
+    textPrimary: "#333",
+    textSecondary: "#333",
   },
 };
 

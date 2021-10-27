@@ -3,32 +3,41 @@ import styled from "styled-components";
 // 100% view height - landing page
 export const FullViewDiv = styled.div`
   height: 100vh;
-  background-color: #9dc6ff;
+  background-color: ${({ theme }) => theme.colors.backgroundPrimary};
   overflow-x: hidden;
 
+  // Landing Heading
   & > h1 {
     font-size: 40px;
     text-align: center;
     padding-top: 25vh;
+    color: ${({ theme }) => theme.colors.textPrimary};
   }
 
+  // Landing Sub Heading
   & > h3 {
     text-align: center;
+    color: ${({ theme }) => theme.colors.textPrimary};
   }
 `;
 
 // large content section div
 export const ContentDiv = styled.div`
-  background-color: #eee;
-  border: 1px solid black;
+  background-color: ${({ theme }) => theme.colors.backgroundPrimary};
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 75px;
   overflow-x: hidden;
 
-  & > h1 {
-    margin-top: 50px;
+  &:nth-child(even) {
+    background-color: ${({ theme }) => theme.colors.backgroundSecondary};
   }
 
+  // Heading
+  & > h1 {
+    margin-top: 75px;
+  }
+
+  // Sub Heading
   & > h4 {
     margin: auto;
     margin-bottom: 25px;
@@ -52,12 +61,14 @@ export const SocialsDiv = styled.div`
   justify-content: center;
   align-items: center;
 
-  & > a > * {
+  // Icon
+  & svg {
     font-size: 24px;
-    color: black;
-    border: 2px solid black;
+    color: ${({ theme }) => theme.colors.backgroundPrimary};
+    border: 2px solid ${({ theme }) => theme.colors.backgroundPrimary};
     border-radius: 5px;
     padding: 5px;
+    box-shadow: -1px 1px 2px 0 #555;
   }
 
   & > a > *:hover {
@@ -68,7 +79,8 @@ export const SocialsDiv = styled.div`
 export const SkillCardDiv = styled.div`
   width: 150px;
   height: 36px;
-  background-color: #ddd;
+  /* background-color: ${({ theme }) => theme.colors.backgroundSecondary}; */
+  background-color: #eee;
   display: flex;
   align-items: center;
   margin: auto;
@@ -76,11 +88,13 @@ export const SkillCardDiv = styled.div`
   box-shadow: -1px 1px 2px 0 #555;
   border-radius: 2px;
 
+  // svg icon div
   & div {
     background-color: #fff;
     padding: 3px;
   }
 
+  // svg icon
   & img {
     width: 30px;
     height: 30px;
@@ -88,13 +102,14 @@ export const SkillCardDiv = styled.div`
     display: flex;
   }
 
+  // skill name
   & p {
     flex-grow: 1;
   }
 `;
 
 export const ProjectCardDiv = styled.div`
-  background-color: #4c8492;
+  background-color: ${({ theme }) => theme.colors.backgroundPrimary};
   width: 95%;
   max-width: 520px;
   margin: auto;
@@ -104,16 +119,19 @@ export const ProjectCardDiv = styled.div`
   display: flex;
   flex-direction: column;
 
+  // Project Image
   & > img {
-    width: 95%;
-    max-width: 500px;
+    width: 100%;
+    max-width: 520px;
     margin: auto;
-    margin-top: 10px;
-    margin-bottom: 8px;
-    border-radius: 5px;
-    box-shadow: -1px 1px 2px 0 #555;
+    margin-bottom: 20px;
+    /* border-radius: 5px; */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    /* box-shadow: -1px 1px 2px 0 #555; */
   }
 
+  // Project Info Section
   & > div {
     width: 95%;
     margin: auto;
@@ -121,14 +139,17 @@ export const ProjectCardDiv = styled.div`
     flex-direction: column;
   }
 
+  // Project Title
   & h4 {
     margin-bottom: 10px;
   }
 
+  // Project Summary
   & > div > p {
     margin-bottom: 25px;
   }
 
+  // Project Tech Used and Project Link Div
   & > div > div > div {
     display: grid;
     grid-template-columns: repeat(1, auto);
@@ -136,11 +157,12 @@ export const ProjectCardDiv = styled.div`
     justify-content: center;
   }
 
+  // Project Link Buttons
   & a {
     width: 135px;
-    background-color: #ddd;
+    background-color: ${({ theme }) => theme.colors.backgroundSecondary};
     display: flex;
-    color: black;
+    color: ${({ theme }) => theme.colors.textSecondary};
     justify-content: space-evenly;
     align-items: center;
     padding: 10px 5px;
@@ -155,12 +177,14 @@ export const ProjectCardDiv = styled.div`
   }
 
   @media (min-width: 350px) {
-    height: 800px;
+    /* height: 800px; */
 
+    // Project Info Section
     & > div {
       height: 400px;
     }
 
+    // Project Tech Used and Project Link Div
     & > div > div > div {
       display: grid;
       grid-template-columns: repeat(2, auto);
@@ -168,6 +192,7 @@ export const ProjectCardDiv = styled.div`
       justify-content: center;
     }
 
+    // Project Summary
     & > div > p {
       height: 80px;
       margin-bottom: 0px;
@@ -204,25 +229,29 @@ export const ProjectLinksDiv = styled.div`
 
 export const TimeLineCardDiv = styled.div`
   max-width: 95%;
-  background-color: #fff;
+  background-color: ${({ theme }) => theme.colors.backgroundSecondary};
+  /* background-color: #1036f8; */
   margin: auto;
   margin-bottom: 10px;
   padding-bottom: 10px;
   border-radius: 5px;
   box-shadow: -1px 1px 2px 0 #555;
 
+  // Card Heading
   & > h3 {
     padding-top: 10px;
     max-width: 95%;
     margin: auto;
   }
 
+  // Card Body Text
   & > p {
     text-align: start;
     max-width: 90%;
     margin: 20px auto;
   }
 
+  // Card Button
   & a {
     max-width: 150px;
     flex-shrink: 2;
@@ -230,7 +259,8 @@ export const TimeLineCardDiv = styled.div`
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    color: black;
+    background-color: ${({ theme }) => theme.colors.backgroundPrimary};
+    color: ${({ theme }) => theme.colors.textPrimary};
     padding: 10px 5px;
     border-radius: 5px;
     text-decoration: none;
@@ -254,17 +284,18 @@ export const FooterDiv = styled.div`
 `;
 
 export const AboutDiv = styled.div`
-  background-color: #eee;
-  border: 1px solid black;
+  background-color: ${({ theme }) => theme.colors.backgroundSecondary};
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 75px;
 
+  // About Heading
   & > h1 {
     max-width: 95%;
     margin: auto;
-    margin-top: 50px;
+    padding-top: 75px;
   }
 
+  // About Body Content
   & > p {
     text-align: start;
     max-width: 90%;
@@ -272,17 +303,12 @@ export const AboutDiv = styled.div`
     margin-bottom: 20px;
   }
 
-  & svg {
-    box-sizing: content-box;
-    font-size: 50px;
-    padding: 0px 10px;
-  }
-
+  // About Cards Div
   & > div {
     max-width: 95%;
     margin: auto;
-    background-color: #999;
-    color: #eee;
+    background-color: ${({ theme }) => theme.colors.backgroundPrimary};
+    color: ${({ theme }) => theme.colors.textPrimary};
     border-radius: 5px;
     box-shadow: -1px 1px 2px 0 #555;
     display: flex;
@@ -321,7 +347,6 @@ export const AboutDiv = styled.div`
 export const AboutCardDiv = styled.div`
   height: 140px;
   padding-top: 5px;
-
   display: flex;
   flex-direction: row;
   max-width: 95%;
@@ -330,15 +355,23 @@ export const AboutCardDiv = styled.div`
   justify-content: center;
 
   &:not(:last-child) {
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid ${({ theme }) => theme.colors.textPrimary};
   }
 
+  // Card Body Text
   & > div > p {
     padding: 0px 5px;
     text-align: center;
     margin: auto;
     justify-content: center;
     display: flex;
+  }
+
+  // About Card Icons
+  & svg {
+    box-sizing: content-box;
+    font-size: 50px;
+    padding: 0px 10px;
   }
 
   @media (min-width: 350px) {
@@ -364,7 +397,7 @@ export const AboutCardDiv = styled.div`
 
     &:not(:last-child) {
       border-bottom: unset;
-      border-right: 1px solid #eee;
+      border-right: 1px solid ${({ theme }) => theme.colors.textPrimary};
     }
   }
 `;
