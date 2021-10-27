@@ -16,7 +16,7 @@ import {
 
 export const projectsData = [
   {
-    name: "Inventory Application",
+    name: "Whisky Warehouse",
     summary:
       "A fake whisky store/catalogue in which you can interact with products. A CRUD app (create, read, update and delete).",
     tech: [Nodejs, Express, CSS, MongoDB],
@@ -25,7 +25,7 @@ export const projectsData = [
     siteUrl: "https://young-eyrie-64675.herokuapp.com/",
   },
   {
-    name: "Shopping Cart",
+    name: "The Tool Store",
     summary: "Small E-Commerce page with functional shopping cart.",
     tech: [Javascript, React, CSS],
     projectImage: "https://i.imgur.com/NhByvEM.jpg",
@@ -33,7 +33,7 @@ export const projectsData = [
     siteUrl: "https://zakmcrae.github.io/shopping-cart/",
   },
   {
-    name: "psts (Blog)",
+    name: "The Blog",
     summary: "A blog website. Frontend MVC and Backend API.",
     tech: [Python, FastAPI, SQL, HTML, Bootstrap, SwaggerUI],
     projectImage: "https://i.imgur.com/h95mM8l.jpg",
@@ -41,8 +41,8 @@ export const projectsData = [
     siteUrl: "https://psts.xyz/",
   },
   {
-    name: "lsts (Todo list)",
-    summary: "A todo list website.",
+    name: "Simple Lists",
+    summary: "A list website. Useful for keeping track of tasks and todos.",
     tech: [Python, Flask, HTML, Bootstrap, SQL, SwaggerUI],
     projectImage: "https://i.imgur.com/0pxD7ml.jpg",
     repoUrl: "https://github.com/ZakMcRae/lsts",
