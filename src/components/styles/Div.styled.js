@@ -19,6 +19,16 @@ export const FullViewDiv = styled.div`
     text-align: center;
     color: ${({ theme }) => theme.colors.textPrimary};
   }
+
+  & > div {
+    padding: 5px;
+    width: 100%;
+    background-color: #000;
+  }
+
+  & svg {
+    background-color: ${({ theme }) => theme.colors.textPrimary};
+  }
 `;
 
 // large content section div
@@ -281,6 +291,7 @@ export const FooterDiv = styled.div`
   display: flex;
   justify-content: center;
   padding: 10px 0px;
+  background-color: #000;
 `;
 
 export const AboutDiv = styled.div`

@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { FullViewDiv } from "./styles/Div.styled";
+import Socials from "../components/Socials";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -21,6 +22,10 @@ function Landing() {
 
   return (
     <FullViewDiv>
+      <div data-aos="fade-down" data-aos-duration="1250" data-aos-delay="2000">
+        <Socials />
+      </div>
+
       <h1 data-aos="zoom-out" data-aos-duration="2000">
         Zak McRae
       </h1>
