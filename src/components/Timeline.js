@@ -11,13 +11,13 @@ function Timeline() {
       {timeLineData.map((item, index) => {
         if (index % 2 === 0) {
           return (
-            <div key={index} data-aos="fade-up-right">
+            <div key={index}>
               <TimeLineCard item={item} />
             </div>
           );
         } else
           return (
-            <div key={index} data-aos="fade-up-left">
+            <div key={index}>
               <TimeLineCard item={item} />
             </div>
           );
@@ -33,7 +33,9 @@ const TimeLineCard = (props) => {
       <h3>{title}</h3>
       <span>{date}</span>
       <p>{body}</p>
-      <a href={linkUrl}>{linkText}</a>
+      <div data-aos="fade-in" data-aos-duration="1250">
+        <a href={linkUrl}>{linkText}</a>
+      </div>
     </TimeLineCardDiv>
   );
 };

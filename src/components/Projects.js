@@ -45,10 +45,10 @@ const ProjectCard = (props) => {
         <ProjectLinksDiv>
           <h4>Project Links</h4>
           <FlexDiv>
-            <div data-aos="fade-in" data-aos-duration="1000">
+            <div data-aos="fade-right" data-aos-duration="1000">
               <a href={repoUrl}>View GitHub Repo</a>
             </div>
-            <div data-aos="fade-in" data-aos-duration="1000">
+            <div data-aos="fade-left" data-aos-duration="1000">
               <a href={siteUrl}>Visit Site</a>
             </div>
           </FlexDiv>
