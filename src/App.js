@@ -8,15 +8,8 @@ import Footer from "./components/Footer";
 import { GlobalStyles } from "./components/styles/GlobalStyle";
 import { ThemeProvider } from "styled-components";
 
-// todo redo colors into variables
-
 const theme = {
   colors: {
-    //Teal
-    // backgroundPrimary: "#29A0B1",
-    // Orange
-    // backgroundPrimary: "#FF8300",
-    // Gold
     backgroundPrimary: "#F8D210",
     backgroundSecondary: "#fff",
     textPrimary: "#333",
