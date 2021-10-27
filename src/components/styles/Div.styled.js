@@ -89,7 +89,6 @@ export const SocialsDiv = styled.div`
 export const SkillCardDiv = styled.div`
   width: 150px;
   height: 36px;
-  /* background-color: ${({ theme }) => theme.colors.backgroundSecondary}; */
   background-color: #eee;
   display: flex;
   align-items: center;
@@ -135,10 +134,9 @@ export const ProjectCardDiv = styled.div`
     max-width: 520px;
     margin: auto;
     margin-bottom: 20px;
-    /* border-radius: 5px; */
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    /* box-shadow: -1px 1px 2px 0 #555; */
+    border-bottom: 1px solid #555;
   }
 
   // Project Info Section
@@ -240,7 +238,6 @@ export const ProjectLinksDiv = styled.div`
 export const TimeLineCardDiv = styled.div`
   max-width: 95%;
   background-color: ${({ theme }) => theme.colors.backgroundSecondary};
-  /* background-color: #1036f8; */
   margin: auto;
   margin-bottom: 10px;
   padding-bottom: 10px;
