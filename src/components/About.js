@@ -24,7 +24,7 @@ function About() {
           </div>
           <FlexGrowDiv>
             <h4>Life Long Learning</h4>
-            <p>Never to late to learn a new tool or trick.</p>
+            <p>Never too late to learn a new tool or trick.</p>
           </FlexGrowDiv>
         </AboutCardDiv>
 
