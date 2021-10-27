@@ -4,6 +4,7 @@ import styled from "styled-components";
 export const FullViewDiv = styled.div`
   height: 100vh;
   background-color: #9dc6ff;
+  overflow-x: hidden;
 
   & > h1 {
     font-size: 40px;
@@ -37,7 +38,7 @@ export const ContentDiv = styled.div`
 
 // spaced out inside larger section div
 export const SectionDiv = styled.div`
-  margin-bottom: 25px;
+  margin-bottom: 19px;
   // stop aos scroll animation overflow
   overflow-x: hidden;
 `;
@@ -222,7 +223,7 @@ export const TimeLineCardDiv = styled.div`
     margin: 20px auto;
   }
 
-  & > a {
+  & a {
     max-width: 150px;
     flex-shrink: 2;
     background-color: #ddd;
