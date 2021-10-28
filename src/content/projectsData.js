@@ -18,7 +18,7 @@ export const projectsData = [
   {
     name: "Whisky Warehouse",
     summary:
-      "A fake whisky store/catalogue in which you can interact with products. A CRUD app (create, read, update and delete).",
+      "A fake whisky store/catalogue in which you can create, edit, update and delete products.",
     tech: [Nodejs, Express, CSS, MongoDB],
     projectImage: "https://i.imgur.com/pXsK5b3.jpg",
     repoUrl: "https://github.com/ZakMcRae/inventory-application",

@@ -1,6 +1,6 @@
 [
   {
-    "date": "December 2021",
+    "date": "December 2020",
     "title": "Explored Python Data Science",
     "body": "Completed various IBM Coursera courses (Data Analyses, Databases and SQL, ...). Decided this area didn't interest me, it feels more like statistics than programming and it didn't satisfy that problem solving itch.",
     "linkText": "View Earned Badges",
@@ -30,14 +30,14 @@
   {
     "date": "Apr 2021",
     "title": "Made My First API",
-    "body": "My first API. This was made with the intent to learn making REST apis. I also wrote integration tests for every endpoint. Learned using a separate test database, mocking data and monkeypatching functions.",
+    "body": "This was made with the intent to learn making REST apis. I also wrote integration tests for every endpoint. Learned using a separate test database, mocking data and monkeypatching functions.",
     "linkText": "View Blog API",
     "linkUrl": "https://api.psts.xyz/"
   },
   {
     "date": "May 2021",
     "title": "Front End and Connecting to API",
-    "body": "This was a front end made to be used with api.psts.xyz. Learned my API endpoints could be improved. Had endpoints for individual posts or replies only, made endpoints that provided posts complete with nested replies. Also learned how to manage multiple domains and sub-domains when I deployed this on my Linode vps.",
+    "body": "This was a front end made to be used with the Blog API. Learned my API endpoints could be improved. Had endpoints for individual posts or replies only, made endpoints that provided posts complete with nested replies. Also learned how to manage multiple domains and sub-domains when I deployed this on my Linode vps.",
     "linkText": "View Blog Front End",
     "linkUrl": "https://fastapi.psts.xyz/"
   },
@@ -58,7 +58,7 @@
   {
     "date": "August 2021",
     "title": "Started Learning React",
-    "body": "Did many projects from The Odin Project to learn React such as a resume builder, a memory game and a shopping cart. Got practice with class based and functional components, state, props, lifecycle methods (briefly) and hooks.",
+    "body": "Did many projects from The Odin Project to learn React such as a resume builder, a memory game and a shopping cart. Got practice with class based and functional components, state, props, lifecycle methods and hooks.",
     "linkText": "View Breaking Bad Memory Game",
     "linkUrl": "https://zakmcrae.github.io/breaking-bad-memory-game/"
   },

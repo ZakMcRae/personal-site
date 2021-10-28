@@ -7,7 +7,7 @@ function Timeline() {
   return (
     <ContentDiv>
       <h1>My Timeline</h1>
-      <h4>Here is a rough timeline of my progression in programming.</h4>
+      <h4>Here is a rough timeline of my recent progression in programming.</h4>
       {timeLineData.map((item, index) => {
         if (index % 2 === 0) {
           return (
