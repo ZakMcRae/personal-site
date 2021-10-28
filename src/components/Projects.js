@@ -23,11 +23,9 @@ function Projects() {
 
 const ProjectCard = (props) => {
   const { name, summary, projectImage, tech, repoUrl, siteUrl } = props.project;
-  console.log(props.index);
 
   return (
     <ProjectCardDiv>
-      {/* // todo add row reverse/order 2 to every other skill card */}
       <img
         src={projectImage}
         alt=""
