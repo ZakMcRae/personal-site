@@ -29,6 +29,12 @@ export const FullViewDiv = styled.div`
   & svg {
     background-color: ${({ theme }) => theme.colors.textPrimary};
   }
+
+  @media (min-width: 960px) {
+    h1 {
+      font-size: 60px;
+    }
+  }
 `;
 
 // large content section div

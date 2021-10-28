@@ -8,21 +8,18 @@ import "aos/dist/aos.css";
 function Landing() {
   useEffect(() => {
     // initialize AOS (animation on scroll package)
-    // todo uncomment line below
-    // AOS.init({ once: true});
-    AOS.init({});
+    AOS.init({ once: true });
 
     // wake up my heroku website in case user clicks it later
     // free tier of heroku sleeps until visited - can take 5-20s to startup
-    // todo uncomment line below
-    // fetch("https://young-eyrie-64675.herokuapp.com/", {
-    //   mode: "no-cors",
-    // });
+    fetch("https://young-eyrie-64675.herokuapp.com/", {
+      mode: "no-cors",
+    });
   }, []);
 
   return (
     <FullViewDiv>
-      <div data-aos="fade-down" data-aos-duration="1250" data-aos-delay="2000">
+      <div data-aos="fade-down" data-aos-duration="1250" data-aos-delay="1750">
         <Socials />
       </div>
 
