@@ -14,21 +14,25 @@ function Projects() {
       <h1>My Projects</h1>
       <h4>Here is a sample of the projects I have made.</h4>
 
-      <FlexDiv>
-        {projectsData.map((project, index) => {
-          return <ProjectCard project={project} key={index} />;
-        })}
-      </FlexDiv>
+      {projectsData.map((project, index) => {
+        return <ProjectCard project={project} key={index} index={index} />;
+      })}
     </ContentDiv>
   );
 }
 
 const ProjectCard = (props) => {
   const { name, summary, projectImage, tech, repoUrl, siteUrl } = props.project;
+  console.log(props.index);
 
   return (
     <ProjectCardDiv>
-      <img src={projectImage} alt="" />
+      {/* // todo add row reverse/order 2 to every other skill card */}
+      <img
+        src={projectImage}
+        alt=""
+        className={props.index % 2 !== 0 ? "reverse-project-card" : ""}
+      />
 
       <div>
         <h2>{name}</h2>

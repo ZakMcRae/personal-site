@@ -46,4 +46,17 @@ a {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #a8bbbf;
 }
+
+
+// class reverses order of flex layout on project cards on large screens
+@media (min-width:960px) {
+  .reverse-project-card{
+    order:2 !important;
+    border-radius: unset !important;
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+    border: unset !important;
+    border-left: 1px solid #555 !important;
+  }
+}
 `;

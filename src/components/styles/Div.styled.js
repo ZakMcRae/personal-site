@@ -122,7 +122,7 @@ export const ProjectCardDiv = styled.div`
   width: 95%;
   max-width: 520px;
   margin: auto;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
   border-radius: 5px;
   box-shadow: -1px 1px 2px 0 #555;
   display: flex;
@@ -185,8 +185,6 @@ export const ProjectCardDiv = styled.div`
   }
 
   @media (min-width: 350px) {
-    /* height: 800px; */
-
     // Project Info Section
     & > div {
       height: 400px;
@@ -205,6 +203,26 @@ export const ProjectCardDiv = styled.div`
       height: 80px;
       margin-bottom: 0px;
     }
+
+    @media (min-width: 960px) {
+      flex-direction: row;
+      max-width: 912px;
+      width: unset;
+      margin-bottom: 75px;
+
+      & > div {
+        padding: 25px 10px;
+      }
+
+      & > img {
+        margin: unset;
+        border-radius: unset;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border: unset;
+        border-right: 1px solid #555;
+      }
+    }
   }
 `;
 
@@ -218,10 +236,6 @@ export const FlexDiv = styled.div`
     justify-content: center;
     align-items: flex-start;
     gap: 25px;
-  }
-
-  @media (min-width: 1100px) {
-    max-width: 1065px;
   }
 `;
 
