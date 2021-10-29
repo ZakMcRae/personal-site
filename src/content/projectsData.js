@@ -28,7 +28,7 @@ export const projectsData = [
     name: "The Tool Store",
     summary: "Small E-Commerce page with functional shopping cart.",
     tech: [Javascript, React, CSS],
-    projectImage: "https://i.imgur.com/NhByvEM.jpg",
+    projectImage: "https://i.imgur.com/j5go8SC.jpg",
     repoUrl: "https://github.com/ZakMcRae/shopping-cart",
     siteUrl: "https://zakmcrae.github.io/shopping-cart/",
   },
