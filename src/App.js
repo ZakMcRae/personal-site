@@ -1,4 +1,3 @@
-import "./App.css";
 import Landing from "./components/Landing";
 import About from "./components/About";
 import Skills from "./components/Skills";
