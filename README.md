@@ -5,7 +5,7 @@ Check it out [here](https://zakmcrae.github.io/personal-site/).
 ## Description
 This is a site to tell you a little about me. It gives some info about me, the projects I have completed and what skills I have and when I learned them.
 
-[![](https://i.imgur.com/t7anGzh.png)](https://zakmcrae.github.io/personal-site/)
+[![](https://i.imgur.com/0V6krDv.png)](https://zakmcrae.github.io/personal-site/)
 
 ## Learned on project
 - using styled-components
