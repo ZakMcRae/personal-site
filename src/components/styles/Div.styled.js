@@ -20,12 +20,6 @@ export const FullViewDiv = styled.div`
     color: ${({ theme }) => theme.colors.textPrimary};
   }
 
-  & > div {
-    padding: 5px;
-    width: 100%;
-    background-color: #000;
-  }
-
   & svg {
     background-color: ${({ theme }) => theme.colors.textPrimary};
   }
@@ -35,6 +29,12 @@ export const FullViewDiv = styled.div`
       font-size: 60px;
     }
   }
+`;
+
+export const LinkBarDiv = styled.div`
+  padding: 5px;
+  width: 100%;
+  background-color: #000;
 `;
 
 // large content section div
@@ -89,6 +89,46 @@ export const SocialsDiv = styled.div`
 
   & > a > *:hover {
     transform: scale(1.05);
+  }
+`;
+
+export const ResumeDiv = styled.div`
+  position: absolute;
+  top: 8px;
+  right: 18px;
+  display: flex;
+
+  // Icon
+  & svg {
+    font-size: 24px;
+    color: ${({ theme }) => theme.colors.backgroundPrimary};
+    border: 2px solid ${({ theme }) => theme.colors.backgroundPrimary};
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: -1px 1px 2px 0 #555;
+  }
+
+  & > a > *:hover {
+    transform: scale(1.05);
+  }
+`;
+
+export const ResumeLabelDiv = styled.div`
+  width: 70px;
+  position: absolute;
+  top: 5px;
+  right: 15px;
+
+  & svg {
+    color: black;
+    transform: rotate(-90deg);
+    font-size: 24px;
+    background-color: transparent;
+  }
+
+  & span {
+    font-family: "Oswald";
+    font-size: 16px;
   }
 `;
 
