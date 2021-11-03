@@ -1,6 +1,8 @@
 import { useEffect } from "react";
-import { FullViewDiv } from "./styles/Div.styled";
+import { FullViewDiv, LinkBarDiv } from "./styles/Div.styled";
 import Socials from "../components/Socials";
+import Resume from "../components/Resume";
+import ResumeLabel from "../components/ResumeLabel";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -19,8 +21,16 @@ function Landing() {
 
   return (
     <FullViewDiv>
-      <div data-aos="fade-down" data-aos-duration="1250" data-aos-delay="1750">
+      <LinkBarDiv
+        data-aos="fade-down"
+        data-aos-duration="1250"
+        data-aos-delay="1750"
+      >
         <Socials />
+        <Resume />
+      </LinkBarDiv>
+      <div data-aos="fade-up" data-aos-duration="1250" data-aos-delay="2250">
+        <ResumeLabel />
       </div>
 
       <h1 data-aos="zoom-out" data-aos-duration="2000">
