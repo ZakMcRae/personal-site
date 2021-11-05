@@ -10,7 +10,9 @@ function About() {
         committed my full time to learning web development. In the past I have
         used python for small hobby/fun projects and eventually brought that
         over into my previous career. Realizing how much I loved learning and
-        implementing new technologies I decided to pursue it full time.
+        implementing new technologies I decided to pursue it full time. This
+        year I have spent 1000+ hours learning and coding as well as making 900+
+        commits so far this year.
       </p>
 
       <div data-aos="fade-up" data-aos-duration="1000">
