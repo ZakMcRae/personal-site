@@ -6,7 +6,7 @@ export function SkillCard(props) {
   return (
     <SkillCardDiv>
       <div>
-        <img src={icon} alt="" />
+        <img src={icon} alt="" role="img" />
       </div>
       <p>{name}</p>
     </SkillCardDiv>
