@@ -6,15 +6,7 @@ import Timeline from "./components/Timeline";
 import Footer from "./components/Footer";
 import { GlobalStyles } from "./components/styles/GlobalStyle";
 import { ThemeProvider } from "styled-components";
-
-const theme = {
-  colors: {
-    backgroundPrimary: "#F8D210",
-    backgroundSecondary: "#fafafa",
-    textPrimary: "#333",
-    textSecondary: "#333",
-  },
-};
+import { theme } from "./content/theme";
 
 const App = () => {
   return (
