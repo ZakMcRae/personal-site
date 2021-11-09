@@ -14,10 +14,15 @@ This is a site to tell you a little about me. It gives some info about me, the p
 - using animations
   - made use of on scroll animations to draw user attention
   - learned there is such a thing as too much animation, can be distracting
+- React Testing Library
+  - testing of individual components and integration tests
+  - mocking components necessary for tests (adding styled-components themeprovider to each component)
 
 ## Tech
 - Javascript
 - React
+- React Testing Library
+- Jest
 - styled-components (CSS )
 - aos (Animate on Scroll)
 - GitHub Pages
