@@ -34,7 +34,6 @@ describe("Test of Landing Section", () => {
   test("Resume label shown", () => {
     render(<MockLanding />);
     const resumeLabel = screen.getByText("Resume");
-    console.log(resumeLabel);
     expect(resumeLabel).toBeInTheDocument();
   });
 });
