@@ -5,7 +5,7 @@ function About() {
   return (
     <AboutDiv>
       <h1>Here Is A Little Bit About Me</h1>
-      <p>
+      <p role="paragraph">
         In late 2020 I decided to take a new career path and for all of 2021
         committed my full time to learning web development. In the past I have
         used python for small hobby/fun projects and eventually brought that
@@ -22,11 +22,11 @@ function About() {
           data-aos-delay="500"
         >
           <div>
-            <FaBook />
+            <FaBook role="img" />
           </div>
           <FlexGrowDiv>
             <h4>Life Long Learning</h4>
-            <p>Never too late to learn a new tool or trick.</p>
+            <p role="paragraph">Never too late to learn a new tool or trick.</p>
           </FlexGrowDiv>
         </AboutCardDiv>
 
@@ -36,11 +36,11 @@ function About() {
           data-aos-delay="500"
         >
           <div>
-            <FaPodcast />
+            <FaPodcast role="img" />
           </div>
           <FlexGrowDiv>
             <h4>Passion for the Field</h4>
-            <p>
+            <p role="paragraph">
               Listen to programming podcasts for fun and learning whats new.
             </p>
           </FlexGrowDiv>
@@ -52,11 +52,13 @@ function About() {
           data-aos-delay="500"
         >
           <div>
-            <FaCogs />
+            <FaCogs role="img" />
           </div>
           <FlexGrowDiv>
             <h4>Logic and Efficiency</h4>
-            <p>I like the ideas and principles of programming.</p>
+            <p role="paragraph">
+              I like the ideas and principles of programming.
+            </p>
           </FlexGrowDiv>
         </AboutCardDiv>
       </div>
