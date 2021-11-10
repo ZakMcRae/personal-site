@@ -25,9 +25,10 @@ describe("Test of Landing Section", () => {
     expect(jobTitle).toBeInTheDocument();
   });
 
-  test("4 links on component", () => {
+  test("4 links shown", () => {
     render(<MockLanding />);
     const links = screen.getAllByRole("link");
+    // Github, Email, LinkedIn, Resume = 4 total
     expect(links.length).toBe(4);
   });
 
