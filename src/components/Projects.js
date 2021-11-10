@@ -34,7 +34,7 @@ const ProjectCard = (props) => {
 
       <div>
         <h2>{name}</h2>
-        <p>{summary}</p>
+        <p role="paragraph">{summary}</p>
 
         <FlexGrowDiv>
           <h4>Tech Used</h4>
