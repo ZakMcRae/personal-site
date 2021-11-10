@@ -32,7 +32,7 @@ const TimeLineCard = (props) => {
     <TimeLineCardDiv>
       <h3>{title}</h3>
       <span>{date}</span>
-      <p>{body}</p>
+      <p role="paragraph">{body}</p>
       <div data-aos="fade-in" data-aos-duration="1250">
         <a href={linkUrl}>{linkText}</a>
       </div>
