@@ -75,5 +75,19 @@
     "body": "As I am nearing my time running out on learning full time, I am working on another large project. This project is a calorie counting app with a Nodejs/Express back end and a React front end. I also completed this personal portfolio website before I begin looking for a job. Thanks for reading this far!",
     "linkText": "View ScaleDown API Repo",
     "linkUrl": "https://github.com/ZakMcRae/scale-down-api"
+  },
+  {
+    "date": "November 2021",
+    "title": "Job Search, Assessments and Interviews",
+    "body": "I applied to positions in the front end, full stack and back end areas of web development. I was selected by a few companies to do development assessments which led to some interviews. I have started working with a freelancer in a full stack javascript position helping with his extra work.",
+    "linkText": "View Developer Assessment",
+    "linkUrl": "https://github.com/ZakMcRae/poster-counts"
+  },
+  {
+    "date": "December 2021",
+    "title": "First Paid Work and Published Content",
+    "body": "I have completed a few projects/tasks in my new position. I created a landing page from a design mockup and updated/modified some pug html templates and routes in an express app. I have started working on a prototype react native app for a local restaurant delivery service.",
+    "linkText": "View IndiEats Landing Page",
+    "linkUrl": "https://indieats.ca/"
   }
 ]

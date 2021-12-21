@@ -32,21 +32,21 @@ describe("Tests of Timeline Section", () => {
   test("All headings shown", () => {
     render(<MockTimeline />);
     const headings = screen.getAllByRole("heading");
-    // 1 main + 1 sub + 11 x 1 per card = 13 total
-    expect(headings.length).toBe(13);
+    // 1 main + 1 sub + 13 x 1 per card = 15 total
+    expect(headings.length).toBe(15);
   });
 
   test("All links shown", () => {
     render(<MockTimeline />);
     const headings = screen.getAllByRole("link");
-    // 11 x 1 per card = 11 total
-    expect(headings.length).toBe(11);
+    // 13 x 1 per card = 11 total
+    expect(headings.length).toBe(13);
   });
 
   test("All paragraphs shown", () => {
     render(<MockTimeline />);
     const paragraphs = screen.getAllByRole("link");
-    // 11 x 1 per card = 11 total
-    expect(paragraphs.length).toBe(11);
+    // 13 x 1 per card = 11 total
+    expect(paragraphs.length).toBe(13);
   });
 });
