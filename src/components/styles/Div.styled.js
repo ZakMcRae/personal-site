@@ -153,7 +153,7 @@ export const SkillCardDiv = styled.div`
   & img {
     width: 30px;
     height: 30px;
-    object-fit: cover;
+    object-fit: contain;
     display: flex;
   }
 

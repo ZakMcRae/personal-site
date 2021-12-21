@@ -72,3 +72,28 @@ export const Nginx = {
   icon: require("./Nginx.svg").default,
   name: "Nginx",
 };
+
+export const ReactNative = {
+  icon: require("./ReactNative.svg").default,
+  name: "React Native",
+};
+
+export const SocketIO = {
+  icon: require("./SocketIO.svg").default,
+  name: "Socket.IO",
+};
+
+export const Redux = {
+  icon: require("./Redux.svg").default,
+  name: "Redux/Toolkit",
+};
+
+export const Pug = {
+  icon: require("./Pug.svg").default,
+  name: "Pug",
+};
+
+export const Sass = {
+  icon: require("./Sass.svg").default,
+  name: "Sass/SCSS",
+};
