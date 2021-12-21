@@ -14,9 +14,31 @@ import {
   SwaggerUI,
   Nginx,
   Git,
+  Pug,
+  Redux,
+  SocketIO,
+  ReactNative,
 } from "../content/svg/";
 
 export const projectsData = [
+  {
+    name: "IndiEats Landing",
+    summary:
+      "A landing page I made from a design mockup for a local independent food delivery service.",
+    tech: [Nodejs, Express, Pug, Bootstrap],
+    projectImage: "https://i.imgur.com/LoCpHYR.png",
+    repoUrl: "",
+    siteUrl: "https://indieats.ca/",
+  },
+  {
+    name: "IndiEats Driver App",
+    summary:
+      "A prototype delivery driver app for a local independent food delivery service.",
+    tech: [Javascript, ReactNative, Redux, SocketIO],
+    projectImage: "https://i.imgur.com/42vXbX3.png",
+    repoUrl: "",
+    siteUrl: "",
+  },
   {
     name: "Whisky Warehouse",
     summary:

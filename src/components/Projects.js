@@ -11,8 +11,8 @@ import SkillCard from "./SkillsCard";
 function Projects() {
   return (
     <ContentDiv>
-      <h1>My Projects</h1>
-      <h4>Here is a sample of the projects I have made.</h4>
+      <h1>Work and Projects</h1>
+      <h4>Here is a sample of my professional and personal projects.</h4>
 
       {projectsData.map((project, index) => {
         return <ProjectCard project={project} key={index} index={index} />;
@@ -45,13 +45,17 @@ const ProjectCard = (props) => {
           </div>
         </FlexGrowDiv>
         <ProjectLinksDiv>
-          <h4>Project Links</h4>
+          {repoUrl && siteUrl ? (
+            <h4>Project Links</h4>
+          ) : repoUrl || siteUrl ? (
+            <h4>Project Links</h4>
+          ) : null}
           <FlexDiv>
             <div data-aos="fade-right" data-aos-duration="1000">
-              <a href={repoUrl}>View GitHub Repo</a>
+              {repoUrl ? <a href={repoUrl}>View GitHub Repo</a> : null}
             </div>
             <div data-aos="fade-left" data-aos-duration="1000">
-              <a href={siteUrl}>Visit Site</a>
+              {siteUrl ? <a href={siteUrl}>Visit Site</a> : null}
             </div>
           </FlexDiv>
         </ProjectLinksDiv>
