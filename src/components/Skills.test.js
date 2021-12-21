@@ -36,9 +36,9 @@ describe("Tests of Skills Section", () => {
     expect(headings.length).toBe(5);
   });
 
-  test("15 skill icons shown", () => {
+  test("17 skill icons shown", () => {
     render(<MockSkills />);
     const icons = screen.getAllByRole("img");
-    expect(icons.length).toBe(15);
+    expect(icons.length).toBe(17);
   });
 });
