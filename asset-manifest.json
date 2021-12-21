@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/personal-site/static/js/main.ba5d4b2c.chunk.js",
-    "main.js.map": "/personal-site/static/js/main.ba5d4b2c.chunk.js.map",
+    "main.js": "/personal-site/static/js/main.6d614d9f.chunk.js",
+    "main.js.map": "/personal-site/static/js/main.6d614d9f.chunk.js.map",
     "runtime-main.js": "/personal-site/static/js/runtime-main.ad172b63.js",
     "runtime-main.js.map": "/personal-site/static/js/runtime-main.ad172b63.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/personal-site/static/css/2.7fc9bc2b.chunk.css",
@@ -21,15 +21,20 @@
     "static/media/MongoDB.svg": "/personal-site/static/media/MongoDB.0781b723.svg",
     "static/media/Nginx.svg": "/personal-site/static/media/Nginx.f738386e.svg",
     "static/media/Nodejs.svg": "/personal-site/static/media/Nodejs.502737ea.svg",
+    "static/media/Pug.svg": "/personal-site/static/media/Pug.9b02f555.svg",
     "static/media/Python.svg": "/personal-site/static/media/Python.6a8b2999.svg",
     "static/media/React.svg": "/personal-site/static/media/React.3adc4d15.svg",
+    "static/media/ReactNative.svg": "/personal-site/static/media/ReactNative.55360266.svg",
+    "static/media/Redux.svg": "/personal-site/static/media/Redux.0e4fb1c8.svg",
     "static/media/SQL.svg": "/personal-site/static/media/SQL.4a2f4d89.svg",
+    "static/media/Sass.svg": "/personal-site/static/media/Sass.06bf8b60.svg",
+    "static/media/SocketIO.svg": "/personal-site/static/media/SocketIO.aa27363b.svg",
     "static/media/SwaggerUI.svg": "/personal-site/static/media/SwaggerUI.a69c437f.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.ad172b63.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.1b47560e.chunk.js",
-    "static/js/main.ba5d4b2c.chunk.js"
+    "static/js/main.6d614d9f.chunk.js"
   ]
 }
