@@ -87,7 +87,28 @@
     "date": "December 2021",
     "title": "First Paid Work and Published Content",
     "body": "I have completed a few projects/tasks in my new position. I created a landing page from a design mockup and updated/modified some pug html templates and routes in an express app. I have started working on a prototype react native app for a local restaurant delivery service.",
-    "linkText": "View IndiEats Landing Page",
-    "linkUrl": "https://indieats.ca/"
+    "linkText": "",
+    "linkUrl": ""
+  },
+  {
+    "date": "January 2022 - February 2022",
+    "title": "Android Delivery Driver App",
+    "body": "Completed a beta version of a driver app for a local restaurant delivery service on my own. Got familiar with React Native, the Android React Native workflow. Researched and implemented geolocation, notifications, user permissions, long running background service.",
+    "linkText": "",
+    "linkUrl": ""
+  },
+  {
+    "date": "Mar 2022",
+    "title": "iOS Build of Delivery Driver App",
+    "body": "Reworked existing Android React Native app to also build an iOS version. Got familiar with macOS, iOS React Native workflow and Xcode. Continued refining the app and adding features.",
+    "linkText": "",
+    "linkUrl": ""
+  },
+  {
+    "date": "Apr 2022",
+    "title": "Estimating and Researching for Upcoming Projects",
+    "body": "High level planning, research and learning new technologies for potential upcoming projects. After driver app for delivery service, development on the customer and restaurant side will likely follow.",
+    "linkText": "",
+    "linkUrl": ""
   }
 ]
