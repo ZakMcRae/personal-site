@@ -32,28 +32,28 @@ describe("Tests of Projects Section", () => {
   test("All headings shown", () => {
     render(<MockProjects />);
     const headings = screen.getAllByRole("heading");
-    // 1 main heading, 1 sub heading, 6 x 3 headings in cards -1 no project link header = 19
-    expect(headings.length).toBe(19);
+    // 1 main heading, 1 sub heading, 5 x 3 headings in cards, -2 no project link header = 15 total
+    expect(headings.length).toBe(15);
   });
 
   test("All links shown", () => {
     render(<MockProjects />);
     const links = screen.getAllByRole("link");
-    // 4 x 2 links in cards + 1 x 1 + 1 x 0 = 9 total
-    expect(links.length).toBe(9);
+    // 2 Cards 0 links + 3 Cards 2 links  = 6 total
+    expect(links.length).toBe(6);
   });
 
   test("All icons images shown", () => {
     render(<MockProjects />);
     const images = screen.getAllByRole("img");
-    // 6 project images + 28 skill images = 24 total
-    expect(images.length).toBe(34);
+    // 5 project images + 22 skill images = 27 total
+    expect(images.length).toBe(27);
   });
 
   test("All paragraphs shown", () => {
     render(<MockProjects />);
     const paragraphs = screen.getAllByRole("paragraph");
-    // 6 x 1 per project summary = 6 total
-    expect(paragraphs.length).toBe(6);
+    // 5 x 1 per project summary = 5 total
+    expect(paragraphs.length).toBe(5);
   });
 });
