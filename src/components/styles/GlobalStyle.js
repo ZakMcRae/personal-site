@@ -59,4 +59,18 @@ a {
     border-left: 1px solid #555 !important;
   }
 }
+
+// class for phone project card images
+.project-phone-card-image {
+  max-height: 500px;
+  object-fit: contain;
+}
+
+
+@media (min-width: 960px) {
+  .project-phone-card-image {
+    max-width: 350px;
+    object-fit: contain;
+  }
+}
 `;
