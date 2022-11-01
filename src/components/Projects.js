@@ -7,7 +7,7 @@ import {
 } from "./styles/Div.styled";
 import { projectsData } from "../content/projectsData";
 import SkillCard from "./SkillsCard";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function Projects() {
   return (
@@ -28,6 +28,18 @@ const ProjectCard = (props) => {
 
   const [imageIndex, setImageIndex] = useState(0);
 
+  // rotate through project images
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (imageIndex < projectImages.length - 1) {
+        setImageIndex(imageIndex + 1);
+      } else {
+        setImageIndex(0);
+      }
+    }, 3500);
+    return () => clearInterval(interval);
+  }, [imageIndex, projectImages.length]);
+
   // set style class on image
   let imageClassName;
   // check for odd or even index - flips image and info sides every card
@@ -44,64 +56,38 @@ const ProjectCard = (props) => {
   }
 
   return (
-    <>
-      {/* todo - improve button position and style - add previous button as well */}
-      {projectImages.length > 1 && (
-        <div
-          style={{
-            position: "absolute",
-            left: "50px",
-            backgroundColor: "orange",
-          }}
-          onClick={() => {
-            if (imageIndex !== projectImages.length - 1) {
-              setImageIndex((prev) => prev + 1);
-            } else {
-              setImageIndex(0);
-            }
-          }}
-        >
-          <p>Next</p>
-        </div>
-      )}
+    <ProjectCardDiv>
+      <img src={projectImages[imageIndex]} alt="" className={imageClassName} />
 
-      <ProjectCardDiv>
-        <img
-          src={projectImages[imageIndex]}
-          alt=""
-          className={imageClassName}
-        />
+      <div>
+        <h2>{name}</h2>
+        <p role="paragraph">{summary}</p>
 
-        <div>
-          <h2>{name}</h2>
-          <p role="paragraph">{summary}</p>
-
-          <FlexGrowDiv>
-            <h4>Tech Used</h4>
-            <div>
-              {tech.map((item, index) => {
-                return <SkillCard item={item} key={index}></SkillCard>;
-              })}
+        <FlexGrowDiv>
+          <h4>Tech Used</h4>
+          <div>
+            {tech.map((item, index) => {
+              return <SkillCard item={item} key={index}></SkillCard>;
+            })}
+          </div>
+        </FlexGrowDiv>
+        <ProjectLinksDiv>
+          {repoUrl && siteUrl ? (
+            <h4>Project Links</h4>
+          ) : repoUrl || siteUrl ? (
+            <h4>Project Links</h4>
+          ) : null}
+          <FlexDiv>
+            <div data-aos="fade-right" data-aos-duration="1000">
+              {repoUrl ? <a href={repoUrl}>View GitHub Repo</a> : null}
             </div>
-          </FlexGrowDiv>
-          <ProjectLinksDiv>
-            {repoUrl && siteUrl ? (
-              <h4>Project Links</h4>
-            ) : repoUrl || siteUrl ? (
-              <h4>Project Links</h4>
-            ) : null}
-            <FlexDiv>
-              <div data-aos="fade-right" data-aos-duration="1000">
-                {repoUrl ? <a href={repoUrl}>View GitHub Repo</a> : null}
-              </div>
-              <div data-aos="fade-left" data-aos-duration="1000">
-                {siteUrl ? <a href={siteUrl}>Visit Site</a> : null}
-              </div>
-            </FlexDiv>
-          </ProjectLinksDiv>
-        </div>
-      </ProjectCardDiv>
-    </>
+            <div data-aos="fade-left" data-aos-duration="1000">
+              {siteUrl ? <a href={siteUrl}>Visit Site</a> : null}
+            </div>
+          </FlexDiv>
+        </ProjectLinksDiv>
+      </div>
+    </ProjectCardDiv>
   );
 };
 
