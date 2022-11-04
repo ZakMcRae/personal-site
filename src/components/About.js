@@ -6,18 +6,14 @@ function About() {
     <AboutDiv>
       <h1>Here Is A Little Bit About Me</h1>
       <p role="paragraph">
-        I am a self taught full stack Javascript developer with a strong
-        background in web development and mobile development through React
-        Native. I would love to be part of a team to provide value as well as
-        improve myself as a developer. <br />
-        <br /> In late 2020 I decided to take a new career path and for most of
-        2021 committed my full time to learning web development. In the past I
-        have used python for small hobby and personal projects and eventually
-        brought that over into my previous career. Realizing how much I loved
-        learning, problem solving and implementing new technologies I decided to
-        pursue it as a full time career.
-        <br /> <br />I am currently working in a freelance position working on
-        websites and React Native Android and iOS apps.
+        I am a full stack developer with a strong background in web development
+        and mobile development through React, express and React Native. I would
+        love to be part of a team to provide value as well as improve myself as
+        a developer. <br />
+        <br />I have been working as a freelance developer for the past year
+        allowing me to work on a variety of projects from a node/express api, to
+        a food delivery mobile app and a website for logging employee's working
+        hours.
       </p>
 
       <div data-aos="fade-up" data-aos-duration="1000">
