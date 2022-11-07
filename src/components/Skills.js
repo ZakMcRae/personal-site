@@ -15,14 +15,9 @@ function Skills() {
         <div>
           <SectionDiv>
             <h3>Languages</h3>
-            {skillsData.languages.map((item, index) => {
+            {skillsData.languages.map((item) => {
               return (
-                <div
-                  key={index}
-                  data-aos="fade-right"
-                  data-aos-delay="750"
-                  data-aos-duration="1250"
-                >
+                <div key={item.name}>
                   <SkillCard item={item}></SkillCard>
                 </div>
               );
@@ -31,14 +26,9 @@ function Skills() {
 
           <SectionDiv>
             <h3>Frameworks</h3>
-            {skillsData.frameworks.map((item, index) => {
+            {skillsData.frameworks.map((item) => {
               return (
-                <div
-                  key={index}
-                  data-aos="fade-right"
-                  data-aos-delay="750"
-                  data-aos-duration="1250"
-                >
+                <div key={item.name}>
                   <SkillCard item={item}></SkillCard>
                 </div>
               );
@@ -49,14 +39,9 @@ function Skills() {
         <div>
           <SectionDiv>
             <h3>Tools</h3>
-            {skillsData.tools.map((item, index) => {
+            {skillsData.tools.map((item) => {
               return (
-                <div
-                  key={index}
-                  data-aos="fade-left"
-                  data-aos-delay="750"
-                  data-aos-duration="1250"
-                >
+                <div key={item.name}>
                   <SkillCard item={item}></SkillCard>
                 </div>
               );
