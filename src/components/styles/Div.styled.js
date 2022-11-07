@@ -287,6 +287,11 @@ export const FlexDiv = styled.div`
 
 export const FlexGrowDiv = styled.div`
   flex-grow: 1;
+
+  // Card Header
+  & > h4 {
+    font-size: 20px;
+  }
 `;
 
 export const ProjectLinksDiv = styled.div`
