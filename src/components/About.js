@@ -16,12 +16,8 @@ function About() {
         hours.
       </p>
 
-      <div data-aos="fade-up" data-aos-duration="1000">
-        <AboutCardDiv
-          data-aos="fade-up"
-          data-aos-duration="1250"
-          data-aos-delay="500"
-        >
+      <div>
+        <AboutCardDiv>
           <div>
             <FaBook role="img" />
           </div>
@@ -31,11 +27,7 @@ function About() {
           </FlexGrowDiv>
         </AboutCardDiv>
 
-        <AboutCardDiv
-          data-aos="fade-up"
-          data-aos-duration="1250"
-          data-aos-delay="500"
-        >
+        <AboutCardDiv>
           <div>
             <FaPodcast role="img" />
           </div>
@@ -47,11 +39,7 @@ function About() {
           </FlexGrowDiv>
         </AboutCardDiv>
 
-        <AboutCardDiv
-          data-aos="fade-up"
-          data-aos-duration="1250"
-          data-aos-delay="500"
-        >
+        <AboutCardDiv>
           <div>
             <FaCogs role="img" />
           </div>
