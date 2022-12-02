@@ -14,9 +14,9 @@ const App = () => {
       <ThemeProvider theme={theme}>
         <GlobalStyles />
         <Landing></Landing>
-        <About></About>
-        <Skills></Skills>
         <Projects></Projects>
+        <Skills></Skills>
+        <About></About>
         {/* <Timeline></Timeline> */}
         <Footer></Footer>
       </ThemeProvider>
