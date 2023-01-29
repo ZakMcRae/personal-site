@@ -1,7 +1,7 @@
 import {
   Bootstrap,
   Express,
-  Javascript,
+  JavaScript,
   Nodejs,
   Pug,
   React,
@@ -16,7 +16,7 @@ export const projectsData = [
     name: "IndiEats Customer App",
     summary:
       "A food delivery service for local independent restaurants. Android and iOS apps.",
-    tech: [Javascript, ReactNative, Redux, SocketIO],
+    tech: [JavaScript, ReactNative, Redux, SocketIO],
     projectImages: [
       "https://i.imgur.com/6f0FhiN.png",
       "https://i.imgur.com/8GfMJ0P.png",
@@ -37,7 +37,7 @@ export const projectsData = [
   {
     name: "Rees Work Time Log",
     summary: "A website for logging working hours and work order time.",
-    tech: [Javascript, React, Express, SQL],
+    tech: [JavaScript, React, Express, SQL],
     projectImages: [
       "https://i.imgur.com/pShGBBe.png",
       "https://i.imgur.com/jRBZaum.png",
@@ -54,7 +54,7 @@ export const projectsData = [
     name: "IndiEats Driver App",
     summary:
       "A delivery driver app for a local independent food delivery service. Android and iOS apps.",
-    tech: [Javascript, ReactNative, Redux, SocketIO],
+    tech: [JavaScript, ReactNative, Redux, SocketIO],
     projectImages: [
       "https://i.imgur.com/0bGC51c.png",
       "https://i.imgur.com/lETIUiA.png",
@@ -91,7 +91,7 @@ export const projectsData = [
   // {
   //   name: "The Tool Store",
   //   summary: "Small E-Commerce page with functional shopping cart.",
-  //   tech: [Javascript, React, CSS, Git],
+  //   tech: [JavaScript, React, CSS, Git],
   //   projectImages: ["https://i.imgur.com/j5go8SC.jpg"],
   //   repoUrl: "https://github.com/ZakMcRae/shopping-cart",
   //   siteUrl: "https://zakmcrae.github.io/shopping-cart/",
