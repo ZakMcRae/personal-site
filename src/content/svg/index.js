@@ -28,9 +28,9 @@ export const HTML = {
   name: "HTML",
 };
 
-export const Javascript = {
-  icon: require("./Javascript.svg").default,
-  name: "Javascript",
+export const JavaScript = {
+  icon: require("./JavaScript.svg").default,
+  name: "JavaScript",
 };
 
 export const MongoDB = {
@@ -96,4 +96,34 @@ export const Pug = {
 export const Sass = {
   icon: require("./Sass.svg").default,
   name: "Sass/SCSS",
+};
+
+export const TypeScript = {
+  icon: require("./TypeScript.svg").default,
+  name: "TypeScript",
+};
+
+export const Vue = {
+  icon: require("./Vue.svg").default,
+  name: "Vue",
+};
+
+export const Nuxt = {
+  icon: require("./Nuxt.svg").default,
+  name: "Nuxt",
+};
+
+export const PrimeVue = {
+  icon: require("./PrimeVue.svg").default,
+  name: "PrimeVue",
+};
+
+export const GraphQL = {
+  icon: require("./GraphQL.svg").default,
+  name: "GraphQL",
+};
+
+export const GitHub = {
+  icon: require("./GitHub.svg").default,
+  name: "GitHub",
 };
