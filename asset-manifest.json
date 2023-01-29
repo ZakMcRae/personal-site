@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/personal-site/static/js/main.5e13c04a.chunk.js",
-    "main.js.map": "/personal-site/static/js/main.5e13c04a.chunk.js.map",
+    "main.js": "/personal-site/static/js/main.a32f7c47.chunk.js",
+    "main.js.map": "/personal-site/static/js/main.a32f7c47.chunk.js.map",
     "runtime-main.js": "/personal-site/static/js/runtime-main.ad172b63.js",
     "runtime-main.js.map": "/personal-site/static/js/runtime-main.ad172b63.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/personal-site/static/css/2.7fc9bc2b.chunk.css",
@@ -16,11 +16,15 @@
     "static/media/FastAPI.svg": "/personal-site/static/media/FastAPI.0d5b8486.svg",
     "static/media/Flask.svg": "/personal-site/static/media/Flask.2cca5781.svg",
     "static/media/Git.svg": "/personal-site/static/media/Git.6d27b5e0.svg",
+    "static/media/GitHub.svg": "/personal-site/static/media/GitHub.6fa18895.svg",
+    "static/media/GraphQL.svg": "/personal-site/static/media/GraphQL.d8b57d7c.svg",
     "static/media/HTML.svg": "/personal-site/static/media/HTML.87f3f64a.svg",
-    "static/media/Javascript.svg": "/personal-site/static/media/Javascript.fd46ca41.svg",
+    "static/media/JavaScript.svg": "/personal-site/static/media/JavaScript.fd46ca41.svg",
     "static/media/MongoDB.svg": "/personal-site/static/media/MongoDB.0781b723.svg",
     "static/media/Nginx.svg": "/personal-site/static/media/Nginx.f738386e.svg",
     "static/media/Nodejs.svg": "/personal-site/static/media/Nodejs.502737ea.svg",
+    "static/media/Nuxt.svg": "/personal-site/static/media/Nuxt.ac8e2d13.svg",
+    "static/media/PrimeVue.svg": "/personal-site/static/media/PrimeVue.7b9eba01.svg",
     "static/media/Pug.svg": "/personal-site/static/media/Pug.9b02f555.svg",
     "static/media/Python.svg": "/personal-site/static/media/Python.6a8b2999.svg",
     "static/media/React.svg": "/personal-site/static/media/React.3adc4d15.svg",
@@ -29,12 +33,14 @@
     "static/media/SQL.svg": "/personal-site/static/media/SQL.4a2f4d89.svg",
     "static/media/Sass.svg": "/personal-site/static/media/Sass.06bf8b60.svg",
     "static/media/SocketIO.svg": "/personal-site/static/media/SocketIO.aa27363b.svg",
-    "static/media/SwaggerUI.svg": "/personal-site/static/media/SwaggerUI.a69c437f.svg"
+    "static/media/SwaggerUI.svg": "/personal-site/static/media/SwaggerUI.a69c437f.svg",
+    "static/media/TypeScript.svg": "/personal-site/static/media/TypeScript.250981d1.svg",
+    "static/media/Vue.svg": "/personal-site/static/media/Vue.0c97e313.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.ad172b63.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.e171b3df.chunk.js",
-    "static/js/main.5e13c04a.chunk.js"
+    "static/js/main.a32f7c47.chunk.js"
   ]
 }
