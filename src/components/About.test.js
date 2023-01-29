@@ -23,7 +23,7 @@ describe("Tests of About Section", () => {
 
   test("Main paragraph is shown", () => {
     render(<MockAbout />);
-    const paragraph = screen.getByText(/in late 2020/i);
+    const paragraph = screen.getByText(/I am a/i);
     expect(paragraph).toBeInTheDocument();
   });
 
@@ -37,8 +37,8 @@ describe("Tests of About Section", () => {
   test("About card paragraphs are shown", () => {
     render(<MockAbout />);
     const paragraphs = screen.getAllByRole("paragraph");
-    // 1 main paragraph + 3 About Card paragrpahs = 4 total
-    expect(paragraphs.length).toBe(4);
+    // 2 main paragraphs + 3 About Card paragrpahs = 5 total
+    expect(paragraphs.length).toBe(5);
   });
 
   test("About card images are shown", () => {
