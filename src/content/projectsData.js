@@ -1,17 +1,47 @@
 import {
   Bootstrap,
   Express,
+  FastAPI,
   JavaScript,
   Nodejs,
+  Nuxt,
+  PrimeVue,
   Pug,
-  React,
   ReactNative,
   Redux,
   SocketIO,
-  SQL,
+  TypeScript,
 } from "../content/svg/";
 
 export const projectsData = [
+  {
+    name: "Sodelic",
+    summary:
+      "Software developement lifecycle and project management tracking app.",
+    tech: [TypeScript, Nuxt, PrimeVue, FastAPI],
+    projectImages: [
+      "https://raw.githubusercontent.com/ZakMcRae/personal-site/refs/heads/main/public/img/sodelic-1.jpg",
+      "https://raw.githubusercontent.com/ZakMcRae/personal-site/refs/heads/main/public/img/sodelic-2.jpg",
+      "https://raw.githubusercontent.com/ZakMcRae/personal-site/refs/heads/main/public/img/sodelic-3.jpg",
+      "https://raw.githubusercontent.com/ZakMcRae/personal-site/refs/heads/main/public/img/sodelic-4.jpg",
+    ],
+    repoUrl: "",
+    siteUrl: "https://sodelic.com/",
+  },
+  {
+    name: "Track Offsets",
+    summary:
+      "Custom built tool for Canada’s industrial and technological benefits (ITB) policy.",
+    tech: [TypeScript, Nuxt, PrimeVue, FastAPI],
+    projectImages: [
+      "https://raw.githubusercontent.com/ZakMcRae/personal-site/refs/heads/main/public/img/track-offsets-1.png",
+      "https://raw.githubusercontent.com/ZakMcRae/personal-site/refs/heads/main/public/img/track-offsets-2.png",
+      "https://raw.githubusercontent.com/ZakMcRae/personal-site/refs/heads/main/public/img/track-offsets-3.png",
+      "https://raw.githubusercontent.com/ZakMcRae/personal-site/refs/heads/main/public/img/track-offsets-4.png",
+    ],
+    repoUrl: "",
+    siteUrl: "https://trackoffsets.com/",
+  },
   {
     name: "IndiEats Customer App",
     summary:
@@ -34,37 +64,37 @@ export const projectsData = [
     repoUrl: "",
     siteUrl: "",
   },
-  {
-    name: "Rees Work Time Log",
-    summary: "A website for logging working hours and work order time.",
-    tech: [JavaScript, React, Express, SQL],
-    projectImages: [
-      "https://i.imgur.com/pShGBBe.png",
-      "https://i.imgur.com/jRBZaum.png",
-      "https://i.imgur.com/g6BPScP.png",
-      "https://i.imgur.com/8kodM8m.png",
-      "https://i.imgur.com/89URvSO.png",
-      "https://i.imgur.com/qVWTIWG.png",
-    ],
-    imageShape: "phone",
-    repoUrl: "",
-    siteUrl: "",
-  },
-  {
-    name: "IndiEats Driver App",
-    summary:
-      "A delivery driver app for a local independent food delivery service. Android and iOS apps.",
-    tech: [JavaScript, ReactNative, Redux, SocketIO],
-    projectImages: [
-      "https://i.imgur.com/0bGC51c.png",
-      "https://i.imgur.com/lETIUiA.png",
-      "https://i.imgur.com/9emvYFl.png",
-      "https://i.imgur.com/afFccMb.png",
-    ],
-    imageShape: "phone",
-    repoUrl: "",
-    siteUrl: "",
-  },
+  // {
+  //   name: "Rees Work Time Log",
+  //   summary: "A website for logging working hours and work order time.",
+  //   tech: [JavaScript, React, Express, SQL],
+  //   projectImages: [
+  //     "https://i.imgur.com/pShGBBe.png",
+  //     "https://i.imgur.com/jRBZaum.png",
+  //     "https://i.imgur.com/g6BPScP.png",
+  //     "https://i.imgur.com/8kodM8m.png",
+  //     "https://i.imgur.com/89URvSO.png",
+  //     "https://i.imgur.com/qVWTIWG.png",
+  //   ],
+  //   imageShape: "phone",
+  //   repoUrl: "",
+  //   siteUrl: "",
+  // },
+  // {
+  //   name: "IndiEats Driver App",
+  //   summary:
+  //     "A delivery driver app for a local independent food delivery service. Android and iOS apps.",
+  //   tech: [JavaScript, ReactNative, Redux, SocketIO],
+  //   projectImages: [
+  //     "https://i.imgur.com/0bGC51c.png",
+  //     "https://i.imgur.com/lETIUiA.png",
+  //     "https://i.imgur.com/9emvYFl.png",
+  //     "https://i.imgur.com/afFccMb.png",
+  //   ],
+  //   imageShape: "phone",
+  //   repoUrl: "",
+  //   siteUrl: "",
+  // },
   {
     name: "IndiEats Landing Page",
     summary:
