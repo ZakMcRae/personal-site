@@ -43,7 +43,7 @@ const ProjectCard = (props) => {
   // set style class on image
   let imageClassName;
   // check for odd or even index - flips image and info sides every card
-  if (props.index % 2 !== 0) {
+  if (props.index % 2 === 0) {
     imageClassName = "reverse-project-card";
   }
   // check for image shape and add or set class accordingly
@@ -57,9 +57,14 @@ const ProjectCard = (props) => {
 
   return (
     <ProjectCardDiv>
-      <img src={projectImages[imageIndex]} alt="" className={imageClassName} />
+      <img
+        src={projectImages[imageIndex]}
+        alt=""
+        className={imageClassName}
+        style={{ height: "500px" }}
+      />
 
-      <div>
+      <div style={{ width: "45%" }}>
         <h2>{name}</h2>
         <p role="paragraph">{summary}</p>
 
@@ -71,6 +76,7 @@ const ProjectCard = (props) => {
             })}
           </div>
         </FlexGrowDiv>
+
         <ProjectLinksDiv>
           {repoUrl && siteUrl ? (
             <h4>Project Links</h4>
@@ -82,7 +88,11 @@ const ProjectCard = (props) => {
               {repoUrl ? <a href={repoUrl}>View GitHub Repo</a> : null}
             </div>
             <div data-aos="fade-left" data-aos-duration="1000">
-              {siteUrl ? <a href={siteUrl}>Visit Site</a> : null}
+              {siteUrl ? (
+                <a href={siteUrl} target="_blank" rel="noreferrer">
+                  Visit Site
+                </a>
+              ) : null}
             </div>
           </FlexDiv>
         </ProjectLinksDiv>
