@@ -63,7 +63,7 @@ export const ContentDiv = styled.div`
 
 // spaced out inside larger section div
 export const SectionDiv = styled.div`
-  margin-bottom: 13px;
+  margin-bottom: 12px;
   // stop aos scroll animation overflow
   overflow-x: hidden;
 `;

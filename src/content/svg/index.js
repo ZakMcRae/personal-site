@@ -127,3 +127,13 @@ export const GitHub = {
   icon: require("./GitHub.svg").default,
   name: "GitHub",
 };
+
+export const ChartJS = {
+  icon: require("./chartjs.svg").default,
+  name: "ChartJS",
+};
+
+export const Aws = {
+  icon: require("./aws.svg").default,
+  name: "AWS",
+};
