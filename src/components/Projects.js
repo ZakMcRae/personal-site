@@ -13,7 +13,7 @@ function Projects() {
   return (
     <ContentDiv>
       <h1>Work and Projects</h1>
-      <h4>Here is a sample of my professional and personal projects.</h4>
+      <h4>Here is a sample of my professional projects.</h4>
 
       {projectsData.map((project, index) => {
         return <ProjectCard project={project} key={index} index={index} />;
