@@ -10,13 +10,25 @@ function About() {
         solving. Before software development I had a background in sales and
         customer service. I started learning some Python to automate boring and
         repetitive tasks and decided to make the switch full time to learn and
-        work in software development. I have since done a year of freelance work
-        and am now working full time in the field of web development.
+        work in software development. I have been working 3.5 years full time in
+        the field of web development.
       </p>
       <p role="paragraph">
-        Currently working at Chartd as a web application developer. I am
-        enjoying being part of a collaborative team using a modern tech stack to
-        build dashboards and financial tools to support and help clients.
+        Spent 2.5 years working at Chartd as the primary front end developer
+        being the first hired employee. It was great being part of a
+        collaborative team using a modern tech stack to build dashboards and
+        financial tools to support and help clients. Unfortunately all good
+        things come to an end, the company is winding down and I am looking for
+        new opportunities.
+      </p>
+      <p role="paragraph">
+        Other than web development I enjoy spending time with my family, tv,
+        video games, tinkering and learning new things. I have dabbled in
+        electronics making some esp32 mini web servers with IR emitters to
+        control TV and other electronics around the house via a local website
+        but I am not too good with the sauldering part of electronics lol. I
+        also have a 3D printer and enjoy using fusion 360 to design, model and
+        print fun and functional things for my home.
       </p>
 
       <div>
