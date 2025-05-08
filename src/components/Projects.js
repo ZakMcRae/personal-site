@@ -57,14 +57,9 @@ const ProjectCard = (props) => {
 
   return (
     <ProjectCardDiv>
-      <img
-        src={projectImages[imageIndex]}
-        alt=""
-        className={imageClassName}
-        style={{ height: "500px" }}
-      />
+      <img src={projectImages[imageIndex]} alt="" className={imageClassName} />
 
-      <div style={{ width: "45%" }}>
+      <div>
         <h2>{name}</h2>
         <p role="paragraph">{summary}</p>
 

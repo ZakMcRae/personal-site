@@ -24,7 +24,7 @@ export const FullViewDiv = styled.div`
     background-color: ${({ theme }) => theme.colors.textPrimary};
   }
 
-  @media (min-width: 960px) {
+  @media (min-width: 1168px) {
     h1 {
       font-size: 60px;
     }
@@ -166,7 +166,6 @@ export const SkillCardDiv = styled.div`
 export const ProjectCardDiv = styled.div`
   background-color: ${({ theme }) => theme.colors.backgroundPrimary};
   width: 95%;
-  max-width: 520px;
   margin: auto;
   margin-bottom: 25px;
   border-radius: 5px;
@@ -177,12 +176,12 @@ export const ProjectCardDiv = styled.div`
   // Project Image
   & > img {
     width: 100%;
-    max-width: 520px;
     margin: auto;
     margin-bottom: 20px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom: 1px solid #555;
+    height: 450px;
   }
 
   // Project Info Section
@@ -250,23 +249,27 @@ export const ProjectCardDiv = styled.div`
       margin-bottom: 0px;
     }
 
-    @media (min-width: 960px) {
+    @media (min-width: 1168px) {
       flex-direction: row;
-      max-width: 912px;
+      max-width: 1100px;
       width: unset;
       margin-bottom: 75px;
 
       & > div {
         padding: 25px 10px;
+        width: 42%;
       }
 
       & > img {
+        width: 58%;
         margin: unset;
         border-radius: unset;
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
         border: unset;
         border-right: 1px solid #555;
+        object-fit: fill;
+        overflow: hidden;
       }
     }
   }
@@ -392,7 +395,6 @@ export const AboutDiv = styled.div`
     & > div {
       margin: auto;
       margin-bottom: 10px;
-      max-width: 330px;
     }
   }
 
@@ -410,7 +412,7 @@ export const AboutDiv = styled.div`
     }
   }
 
-  @media (min-width: 960px) {
+  @media (min-width: 1168px) {
     & > div {
       max-width: 910px;
     }

@@ -49,7 +49,7 @@ a {
 
 
 // class reverses order of flex layout on project cards on large screens
-@media (min-width:960px) {
+@media (min-width:1168px) {
   .reverse-project-card{
     order:2 !important;
     border-radius: unset !important;
@@ -63,14 +63,13 @@ a {
 // class for phone project card images
 .project-phone-card-image {
   max-height: 500px;
-  object-fit: contain;
+  object-fit: contain !important;
 }
 
 
-@media (min-width: 960px) {
+@media (min-width: 1168px) {
   .project-phone-card-image {
-    max-width: 350px;
-    object-fit: contain;
+    object-fit: contain !important;
   }
 }
 `;
