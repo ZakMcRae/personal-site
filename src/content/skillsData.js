@@ -12,14 +12,14 @@ import {
   TypeScript,
   Nuxt,
   Vue,
-  PrimeVue,
   GitHub,
   ChartJS,
   Aws,
+  Docker,
 } from "../content/svg/";
 
 export const skillsData = {
   languages: [TypeScript, Python],
-  frameworks: [Vue, Nuxt, React, ReactNative, Express, FastAPI],
-  tools: [Git, GitHub, CSS, PrimeVue, ChartJS, Aws, MongoDB, SQL, SocketIO],
+  frameworks: [React, Vue, Nuxt, ReactNative, Express, FastAPI],
+  tools: [Git, GitHub, CSS, ChartJS, Docker, Aws, MongoDB, SQL, SocketIO],
 };
